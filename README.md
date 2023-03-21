@@ -8,23 +8,15 @@
 1. [Overview](#overview)
 2. [Executive Summary](#executivesum)
 3. [Objectives](#objectives)
-
-    3.1. [Program Metrics](#programmetrics)
+        3.1. [Program Metrics](#programmetrics)
 4. [Program Design](#programdesign)
-
-    4.1.[Requirements](#requirements)
+        4.1.[Requirements](#requirements)
+        4.2.[Coverage](#coverage)
+        4.3.[Incentives to Encourage Voluntary Relocation](#incentives)
+        4.4.[Other Key Program Features/Requirements](#other)
+        4.5.[Qualitative/Quantitative Justification for Program](#justification)
+        4.6.[Short-Term and Long-Term Timeframes to Evaluate Program & Justification](#timeframes)
     
-    4.2.[Coverage](#coverage)
-    
-    4.3.[Incentives to Encourage Voluntary Relocation](#incentives)
-
-    4.4.[Other Key Program Features/Requirements](#other)
-
-    4.5.[Qualitative/Quantitative Justification for Program](#justification)
-
-    4.6.[Short-Term and Long-Term Timeframes to Evaluate Program & Justification](#timeframes)
-    
-
 ## Overview <a name="overview"></a>
 This report investigates the proposed social insurance program designed to relocate citizens of Storslysia affected by climate-related catastrophes. The primary objective of the program is to mitigate the financial consequences for residents residing in high-risk areas facing permanent displacement. By implementing the program, the government aims to minimise the economic impact of these events, which are becoming increasingly frequent and costly. 
 
