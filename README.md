@@ -32,11 +32,11 @@ The program provides policyholders with financial protection against the costs a
 
 The program design includes incentives to encourage policyholders to relocate proactively before a catastrophic event occurs. This helps reduce costs associated with reactive relocation and improves the overall effectiveness of the program. 
 
-*Ensuring Financial Sustainability 
+*Ensuring Financial Sustainability*
 
 The program is constructed to be financially sustainable over the long-term by establishing appropriate premium levels, deductibles, and coverage limits that align with the expected costs of claims. 
 
-*Supporting Policyholders 
+*Supporting Policyholders*
 
 The program is designed to relieve financial pressures of voluntary and involuntary relocation of citizens affected by catastrophic climate-related events, overall reducing emotional and psychological pressures on policyholders.  
 
