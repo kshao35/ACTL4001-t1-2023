@@ -96,6 +96,8 @@ Property damage was modelled by considering the occurrence of climate-related ca
 
 Each distribution was accordingly fitted to the property damage data and compared using statistical tests including AIC, BIC, and Log-Likelihood to determine the best model. The results of the analysis indicate that the Fréchet distribution provides the best fit for the dataset, as evidenced by its superior performance across all statistical tests and goodness-of-fit plots (see Appendix C).
 
+![image](https://user-images.githubusercontent.com/93301287/228829627-dd185e0a-9d0d-44ef-a0ed-0785c0bb387f.png)
+
 *Table 1: Results of statistical tests for extreme value distributions*
 
 | Distribution| AIC         | BIC           | Log-Likelihood | Final Selection |
