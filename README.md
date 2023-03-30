@@ -10,20 +10,8 @@
 
 [*Section 1: Program Synopsis*](#objectives)
 
-        3.1. [Program Metrics](#programmetrics)
-4. [Program Design](#programdesign)
+[Program Design](#programdesign)
 
-        4.1.[Requirements](#requirements)
-        
-        6.2.[Coverage](#coverage)
-        
-        6.3.[Incentives to Encourage Voluntary Relocation](#incentives)
-        
-        6.4.[Other Key Program Features/Requirements](#other)
-        
-        6.5.[Qualitative/Quantitative Justification for Program](#justification)
-     
-        6.6.[Short-Term and Long-Term Timeframes to Evaluate Program & Justification](#timeframes)
 
 ## EXECUTIVE SUMMARY <a name="executivesum"></a>
 This report proposes a social insurance program designed to relieve the economic costs associated with climate-related catastrophes in Storslysia. The primary objective of the program is to mitigate the financial consequences for residents residing in high-risk areas facing displacement. The program covers costs arising from climate-related hazards such as temporary housing and household contents, but further assists Storslysia manage displacement risk through a buyback scheme aimedtowards high-risk, low value properties. By implementing the program, the program will reduce economic costs associated with climate catastrophe-related events by approximately 16.58% in the short-term and 28.75% in the long-term. Furthermore, the proposed social insurance program will continue to lower costs even if the climate situation deteriorates as represented by Shared Socioeconomic Pathways (SSP)scenarios. Hence, with 95% confidence, the program costs do not exceed 10% of Storslysia’s 
@@ -200,11 +188,47 @@ The process of grouping correlated natural events was utilised to simplify hazar
 ### 5.1 RISK ASSESSMENT  <a name="riskassess"></a>
 Both quantifiable and qualitative risks that may arise in the implementation and maintenance of the insurance program are assessed below. Quantifiable risks are those that can be numerically measured and are often associated with changes in financial losses or gains and can affect the results of modelling and analysis. On the other hand, qualitative risks are more subjective and stem from non-financial factors such as regulatory compliance, reputation, and policyholder satisfaction (Golnaraghi 2021).
 
+![image](https://user-images.githubusercontent.com/93301287/228833254-0aeccf47-aa2e-44a4-b275-abfc53cbe1ad.png)
+
+### 5.2 SENSITIVITY ANALYSIS  <a name="sensitivityanalysis"></a>
+Sensitivity analysis was performed by adjusting the following key assumptions Table 4. The proposed insurance program will remain financially sustainable within the following recommended ranges. Refer to Appendix N for an example of a worst-case scenario. 
+
+![image](https://user-images.githubusercontent.com/93301287/228833403-1eeeee42-a945-4ece-9aed-e4215bfa749f.png)
+
+### 5.3 FINANCIAL VIABILITY OF PROGRAM   <a name="viability"></a>
+To minimise costs to 10% of Storslysia’s annual GDP, projections of future GDP were first made. Logistic regression models were fit to the world GDP projections, and a constant percentage was taken as Storslysia’s GDP share (see Appendix O). Under 95% confidence intervals, the program costs lie well within 10% of Storslysia’s annual GDP under all four SSP scenarios until 2070 (see Appendix P). The below graphs supplement this by depicting the economic costs from 2020 to 2070 associated WI and WOI with a 95% CI (see Figures 6 & 7). 
+
+![image](https://user-images.githubusercontent.com/93301287/228833551-4d72d7ff-8707-4ed6-9bf5-887305aecf57.png)
+
+## SECTION 6: DATA & DATA LIMITATIONS  <a name="datalimits"></a>
+### 6.1 DATA SOURCES   <a name="source"></a>
+The data provided by the task force was used to create this proposal, and no further external data sources were used. The datasets used included:
+•	Demographic and economic information of Storslysia up to 2022;
+•	Historical hazard events in Storslysia since the 1960s;
+•	Projections of world population, world GDP and SSP emissions until 2100-2150
+
+### 6.2 DATA LIMITATIONS   <a name="datalimits"></a>
+***Insufficiency in Data Reporting***
+
+Limited data points and frequency of data collection for the economic and demographic dataset hindered the accuracy of projections. Assumptions had to be set to produce economic cost projections due to overfitting of models fit on variables such as census data and building permit data. These assumptions decrease the reliability of long-term forecasts. Additionally, scarce historical data on hazard events for low-risk regions such as Region 6 increased the volatility of the damage model predictions. 
+
+***Insufficiency in Data Breadth***
+
+The lack of certain data types limited the ability the program’s modelling to effectively assess climate risk. An absence of data was found in the following areas:
+•	*Demographic data* – availability of information on annual births, deaths and migration allow for a more accurate population projection, while variables such as labour productivity could help with the GDP projection. 
+•	*Historical hazard events* – collection of additional variables such as the size of the affected area or even a survey on the number of households affected would reduce the need for model assumptions.
+•	*Geographical data* – climate risk is affected by a large range of geographical factors including altitude, latitude and longitude, proximity to bodies of water, topography, and vegetation cover. Information on these factors at the region level would have aided with assessing the physical climate risk of areas.
+•	*Weather data* – a multitude of weather variables interact with the frequency and severity of climate events. Data such as the temperature, precipitation, humidity, and wind in each region could increase predictive accuracy of our models.
 
 
+## SECTION 7: FINAL RECOMMENDATIONS  <a name="finalrec"></a>
+***Government-led Social Incentives***
 
+Additional incentives can be introduced to supplement the program, including assistance with housing, and accessing resources such as education, employment, and healthcare services. The government can also provide disaster preparedness training, increase awareness of climate risks, and community engagement activities to facilitate voluntary relocations.  
 
+***Future-proofing Storslysia***
 
+Finally, it is recommended that preventative measures be introduced alongside the insurance program in the near future to guard the country against future climate risk. Strategies include the cessation of issuing building permits in high-risk areas and the fortification of buildings in vulnerable areas for higher resilience against weather damage. 
 
 
 
