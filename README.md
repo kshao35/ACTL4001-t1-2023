@@ -98,6 +98,12 @@ Each distribution was accordingly fitted to the property damage data and compare
 
 <p align="center">
 ![image](https://user-images.githubusercontent.com/93301287/228829821-107d9289-c700-455a-8c48-5579761a80f3.png)
+	
+	
+<p align="center">
+<img src="http://some_place.com/image.png](https://user-images.githubusercontent.com/93301287/228829821-107d9289-c700-455a-8c48-5579761a80f3.png)" />
+</p>
+
 
 *Table 1: Results of statistical tests for extreme value distributions*
 
