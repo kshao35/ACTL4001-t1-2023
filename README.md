@@ -35,15 +35,19 @@ annual GDP in all four SSP scenarios. However, risks such as increasingly correl
 The proposed social insurance program is designed to provide citizens with financial protection and support from climate-related events. The program aims to reduce the costs associated with displacement and support the overall resilience of affected communities and individuals. More detailed outlines of the objectives are as below:
 
 **1. Mitigating Displacement Risk**
+
 The program will reduce displacement risk by incentivising proactive relocation, offering abuyback scheme to houses of low-income policyholders living in high-risk regions, enabling them to relocate before or after a severe or catastrophic climate-related event. This helps reduce costs associated with emergency displacement, improving the overall effectiveness of the program.
 
 **2.Financial Protection for Policyholders**
+
 The program provides policyholders with financial protection against the costs associated with voluntary, proactive relocation as well as involuntary displacement following a catastrophic event. 
 
 **3. Financial Sustainability for Storslysia**
+
 The program is constructed to be financially sustainable over the long-term by establishing appropriate premium levels, deductibles, and coverage limits that align with the expected costs of claims and ensure solvency.
 
 **4. Alleviating Climate Risk Pressure**
+
 The program is designed to relieve financial pressures of voluntary and involuntary relocation of citizens affected by catastrophic climate-related events, reducing economic and psychological burdens to Storslysia’s population
 
 ### 1.2 PROGRAM METRICS <a name="programmetrics"></a>
@@ -138,37 +142,63 @@ emissions. With a hypothetical RAF of 1.1, the disaster would now occur 0.55 tim
 To compare the financial situation with insurance (WI) and without insurance (WOI), the annual economic cost of hazard events across Storslysia was calculated. The factors that contribute to these values are as follows.
 
 ***Property Damage Inflated by Materials & Labour Cost***
+
 The properties in Storslysia were categorised into 6 groups according to property value as depicted in Appendix F. This categorisation was used to balance accuracy with simplicity in the modelling. Next, total annual property damage was divided proportionally between these household groups in each region. The number of households affected in each group was then estimated by dividing annual property damage by median damage (estimated with percentages in Appendix G for each household group) and subsequently the number of people affected was calculated using the persons per household data. Following natural disasters, demand for materials and labour for repair purposes skyrocket, amplifying property damage costs by a factor between 0-50%.
 
 ***Temporary Housing Cost***
+
 In the aftermath of severe and catastrophic events, temporary disaster shelters provide a safe haven for displaced households until they can rebuild or find permanent housing. It was assumed that 50% of households affected by a severe event and 100% of households affected by a catastrophe would require temporary housing. Cost of temporary housing was then calculated on a region-by-region basis by assuming the average time spent in temporary housing was 6 months per person affected.
 
 ***Business Interruption Cost***
+
 Following the occurrence of hazard events, it is common that the economy undergoes a recovery period. Loss of wages was used as a proxy for measuring the magnitude of these impacts. It was assumed that income would be interrupted for a fortnight, a month and four months respectively following a moderate, severe, or catastrophic event. The final cost was determined by multiplying the number of households affected with the corresponding median household income for each of the assumed business interruption periods
 
 ***Contents Coverage***
+
 Contents coverage provides financial protection for the personal belongings and contents inside a home in the event of climate-related hazards. The costs associated with replacing lost household goods were given to range from 40-75% of median homeowner costs calculated on an annual basis for an affected household in each region.
 
 #### 3.2.2 ECONOMIC COST PROJECTIONS
 Figure 1 and Figure 2 compares the annual cost projection of WI and WOI models. The insurance program’s buyback scheme gradually relocates high-risk households to lower-risk areas for the first three household groups, as described in the previous section. As such, WI projection reduces Storslysia’s economic losses by minimising the costs outlined in Section 3.2.1 for households who participate in the relocation scheme. The annual percentage of participants is assumed to follow a sigmoid distribution, where the terminal percentage of relocation is 60% (see Appendix H).
 
-As mentioned in Section 2.3, these models demonstrate the program will reduce economic 
-costs by approximately 16.58% in the short-term and 28.75% in the long-term. Under SSP1 
-and SSP2, the WI model is clearly following a different trajectory relative to the WOI model, 
-indicative of the success of the insurance program in reducing costs under these climate 
-scenarios. For SSP3 and SSP5, whilst the shape of the WI and WOI curves are similar overall,
-in the short-to-medium-term, the WI curve is more convex, suggesting successful reduction of 
-costs in this timeframe.
+![image](https://user-images.githubusercontent.com/93301287/228831147-a5774dbc-1a05-4f6b-bdf8-8bfb45315a67.png)
 
+As mentioned in Section 2.3, these models demonstrate the program will reduce economic costs by approximately 16.58% in the short-term and 28.75% in the long-term. Under SSP1 and SSP2, the WI model is clearly following a different trajectory relative to the WOI model, indicative of the success of the insurance program in reducing costs under these climate scenarios. For SSP3 and SSP5, whilst the shape of the WI and WOI curves are similar overall, in the short-to-medium-term, the WI curve is more convex, suggesting successful reduction of costs in this timeframe.
 
+### 3.3 PREMIUM SETTING <a name="premiumsetting"></a>
+The policyholder premiums were set by first determining the number of policyholders in each region per year. Quadratic regression models were fit to the world population projections, and a constant percentage is taken as Storslysia’s population share (see Appendix I). It is assumed that 50% of the population was insured and that there was one policyholder per household, with an average of 2.527 individuals per household.
 
+The average annual premium per policyholder was determined by dividing the economic cost projections by the number of policyholders for each region. Within the six different household groups described previously, 30%, 50%, 100%, 150%, 200% and 300% of this amount was allocated respectively to factor in total property value insured. Finally, Appendix J presents the base premiums for the year 2020 under each SSP model.
 
+### 3.4 ECONOMIC CAPITAL  <a name="economiccapital"></a>
+The proposed insurance program evaluated economic capital for all four SSP models, covering years 2020 to 2070. Under the 95% confidence interval applied to projected economic costs, the following results in Figure 3 are also within a 95% confidence range. As observed, minor fluctuations occur within each model due to the unpredictability of weather events. Further analysis on trends is included in Appendix K.
 
+![image](https://user-images.githubusercontent.com/93301287/228831761-d0e16645-086d-4c98-b552-d46ee6927ee8.png)
 
+The key takeaway is that economic capital remains positive in both short and long-term scenarios, indicating that the program is sustainable and can generate sufficient reserves to cushion unforeseen events in the future. Under the baseline model of SSP5, in the short-term, the program can recover accumulated reserves within one year up to an approximately $50 million event, which occurs with probability 4.31%. In the long-term, recoveries of up to approximately $600 million event can be made within one year, which occurs with 1.69% probability. See Figure 4 to the right for both these scenarios. 
 
+![image](https://user-images.githubusercontent.com/93301287/228831877-4d730bd2-42e4-4c7a-be58-1002de20128f.png)
 
+### 3.5 COSTS OF VOLUNTARY VS EMERGENCY DISPLACEMENT  <a name="displacement"></a>
 
+The program defines the following definitions:
+•	***Voluntary Displacement Cost*** is calculated as the number of houses exposed to severe or catastrophic events multiplied by the median household value in each region which is inherently the buyback cost at pre-disaster market value. 
+•	***Involuntary Displacement Cost*** is the cost of temporary disaster accommodation for affected households in each region based on an average stay of 6 months. 
+Figure 5 depicts the cumulative program cost projection for both voluntary relocation and emergency displacement across all SSP scenarios. These results demonstrate that there are minimal cost savings between the two groups in the short-term. However, as time horizon increases, a large disparity in the costs accumulate, suggesting that a swift adoption of the buyback scheme in Storslysia will minimise long-term costs and promote the financial sustainability of the program. Additionally, the more intensive the SSP emission scenario is, the wider the disparity between the groups will be as time progresses. A region-by-region breakdown of costs is provided in Appendix L
 
+![image](https://user-images.githubusercontent.com/93301287/228832229-81d456c6-3c88-4d9c-b7b2-87c8339d6646.png)
+
+## SECTION 4: ASSUMPTIONS SUMMARY <a name="assumptionsum"></a>
+***Hazard Data Classification and Processing***
+
+The process of grouping correlated natural events was utilised to simplify hazard assessment and management. By identifying which hazards tended to occur simultaneously, the number of unique hazards was reduced from approximately 50 to 13 (refer to Appendix M for classifications). However, it is acknowledged that grouping events together results in some loss of detail and granularity. An outlier landslide event was excluded from the study and seasonality effects were assumed to be negligible for simplicity.
+
+***Aforementioned Assumptions***
+
+![image](https://user-images.githubusercontent.com/93301287/228832493-b72cc725-74fb-47a9-b64a-f4fb3c8cd372.png)
+
+## SECTION 5: RISKS & RISK MITIGATION CONSIDERATIONS <a name="risksmitigation"></a>
+### 5.1 RISK ASSESSMENT  <a name="riskassess"></a>
+Both quantifiable and qualitative risks that may arise in the implementation and maintenance of the insurance program are assessed below. Quantifiable risks are those that can be numerically measured and are often associated with changes in financial losses or gains and can affect the results of modelling and analysis. On the other hand, qualitative risks are more subjective and stem from non-financial factors such as regulatory compliance, reputation, and policyholder satisfaction (Golnaraghi 2021).
 
 
 
