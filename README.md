@@ -7,6 +7,7 @@
 
 ## Table of contents
 [*Executive Summary*](#executivesum)
+
 [*Section 1: Program Synopsis*](#objectives)
 
         3.1. [Program Metrics](#programmetrics)
@@ -95,12 +96,18 @@ Property damage was modelled by considering the occurrence of climate-related ca
 
 Each distribution was accordingly fitted to the property damage data and compared using statistical tests including AIC, BIC, and Log-Likelihood to determine the best model. The results of the analysis indicate that the Fréchet distribution provides the best fit for the dataset, as evidenced by its superior performance across all statistical tests and goodness-of-fit plots (see Appendix C).
 
+*Table 1: Results of statistical tests for extreme value distributions*
 | Distribution| AIC         | BIC           | Log-Likelihood | Final Selection |
 |:-----------:|:-----------:|:-------------:|:-------------: |:-------------:  |
 | Gumbel      | 7743.014    | 7749.4        | -3869.507      | ✘              |
+| Weibull     | 4835.001    | 4841.387      | -2415.50       |✘               |
+| Fréchet     | 4821.952    | 4831.53       | -2407.976      |✔               |
 
+Known to have the best performance in capturing heavy right tails, the Fréchet distribution is 
+commonly used in studies to model extreme phenomena in fields such as meteorology, hydrology, and finance (RAL 2022). With a shape parameter (α), scale parameter (σ), and location parameter (μ), the parameter estimates are shown in Appendix D and the probability 
+density function is shown below:
 
-
+$f(x;α,σ,μ) = \frac{α}{σ} × 
 
 
 
