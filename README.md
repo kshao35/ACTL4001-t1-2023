@@ -110,14 +110,16 @@ density function is shown below:
 
 	\frac{n!}{k!(n-k)!}
         
-$ f(x;α,σ,μ) = \frac{α}{σ} × $
+	$ f(x;α,σ,μ) = \frac{α}{σ} × $
 
 #### 3.1.2 CALCULATING RETURN PERIOD
-With a distribution fitted to the data, return periods of 2, 5, 10 and 100 years were set as benchmarks for quantifying the damages of Minor, Moderate, Severe and Catastrophic events. The return period is defined as the time between disasters of a particular scale occurring, meaning that a 1-in-100-year hazard event was set to be catastrophic in terms of severity. With the Fréchet distribution, the damage level that corresponded to a given quantile was calculated, where quantiles were set as $$For example, to obtain a damage estimate of a 
-minor event, the 50% quantile of our fitted distribution was taken.
+With a distribution fitted to the data, return periods of 2, 5, 10 and 100 years were set as benchmarks for quantifying the damages of Minor, Moderate, Severe and Catastrophic events. The return period is defined as the time between disasters of a particular scale occurring, meaning that a 1-in-100-year hazard event was set to be catastrophic in terms of severity. With the Fréchet distribution, the damage level that corresponded to a given quantile was calculated, where quantiles were set as
+		
+		$$
+For example, to obtain a damage estimate of a minor event, the 50% quantile of our fitted distribution was taken.
 
-
-
+#### 3.1.3 OBTAINING CONFIDENCE INTERVALS
+To determine confidence intervals (CIs) for the predictions, percentile bootstrapping was chosen over other bootstrapping methods to generate more stable results, given there are many extreme data points. The dataset was resampled \beta = 1000 times with replacement, and from each resampled dataset, a hazard rate and severity value were calculated for each of the 6 regions. The 95% confidence interval was then constructed as follows by taking the interval between the 25th quantile value to the 975th quantile value from the 1000 estimates in the bootstrapped sample:
 
 
 
