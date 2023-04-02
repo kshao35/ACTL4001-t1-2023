@@ -14,7 +14,7 @@
 
 [*1.2 Program Metrics*](#programmetrics)
 
-[*Section 2: Program Design](#programdesign)
+[*Section 2: Program Design*](#programdesign)
 
 [*2.1 Requirements*](#requirements)
 
