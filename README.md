@@ -222,8 +222,11 @@ The key takeaway is that economic capital remains positive in both short and lon
 ### 3.5 COSTS OF VOLUNTARY VS EMERGENCY DISPLACEMENT  <a name="displacement"></a>
 
 The program defines the following definitions:
+
 •	***Voluntary Displacement Cost*** is calculated as the number of houses exposed to severe or catastrophic events multiplied by the median household value in each region which is inherently the buyback cost at pre-disaster market value. 
+
 •	***Involuntary Displacement Cost*** is the cost of temporary disaster accommodation for affected households in each region based on an average stay of 6 months. 
+
 Figure 5 depicts the cumulative program cost projection for both voluntary relocation and emergency displacement across all SSP scenarios. These results demonstrate that there are minimal cost savings between the two groups in the short-term. However, as time horizon increases, a large disparity in the costs accumulate, suggesting that a swift adoption of the buyback scheme in Storslysia will minimise long-term costs and promote the financial sustainability of the program. Additionally, the more intensive the SSP emission scenario is, the wider the disparity between the groups will be as time progresses. A region-by-region breakdown of costs is provided in Appendix L
 
 ![image](https://user-images.githubusercontent.com/93301287/228832229-81d456c6-3c88-4d9c-b7b2-87c8339d6646.png)
