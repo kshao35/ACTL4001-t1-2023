@@ -139,7 +139,7 @@ Each distribution was accordingly fitted to the property damage data and compare
 | Distribution| AIC         | BIC           | Log-Likelihood | Final Selection |
 |:-----------:|:-----------:|:-------------:|:-------------: |:-------------:  |
 | Gumbel      | 7743.014    | 7749.4        | -3869.507      |:x:              |
-| Weibull     | 4835.001    | 4841.387      | -2415.50       |\color{red}:x:   |
+| Weibull     | 4835.001    | 4841.387      | -2415.50       |x:               |
 | Fréchet     | 4821.952    | 4831.53       | -2407.976      |:heavy_check_mark:|
 
 Known to have the best performance in capturing heavy right tails, the Fréchet distribution is 
