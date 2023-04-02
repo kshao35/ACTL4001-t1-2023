@@ -1,5 +1,22 @@
 # Relocation Social Insurance Program Report: Storslysia
 
+
+Sharon Zhou
+| Assumptions                                                                                         | Rationale                                                                                                                                                                 | Analysis                                                                                          |
+|-----------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------|
+| Storslysia’s population and GDP is a constant percentage of the world population and GDP over time. | This provides a consistent framework for analysis and incorporates global population trends. Further, it considers the interaction of Storslysia with the global economy. | Changes in population and GDP trends will influence policyholder uptake.                          |
+| The distribution of property value remains constant over time.                                      | This enables a more accurate and equitable allocation of premiums paid by policyholders.                                                                                  | Shifts in wealth distribution will influence premium determination, and property damage sizes.    |
+| Return period linkage to severity classes.                                                          | Catastrophic hazard events are rarer in occurrence than minor events.                                                                                                     | Climate risk change in non-linear ways may result in unexpected claims burdens.                   |
+| Economic cost assumptions.                                                                          | For ease of modelling, constant numbers were assumed for various economic factors. These estimates were informed from external research. Refer to 3.2.                    | Changes in economic factors are unlikely to remain constant over time, resulting in inaccuracies. |
+
+
+
+
+
+
+
+
+
 #### March 2023
 
 ##### Team: The Standard Deviants (UNSW)
@@ -136,9 +153,9 @@ Each distribution was accordingly fitted to the property damage data and compare
 
 | Distribution| AIC         | BIC           | Log-Likelihood | Final Selection |
 |:-----------:|:-----------:|:-------------:|:-------------: |:-------------:  |
-| Gumbel      | 7743.014    | 7749.4        | -3869.507      |:x:              |
-| Weibull     | 4835.001    | 4841.387      | -2415.50       |:x:              |
-| Fréchet     | 4821.952    | 4831.53       | -2407.976      |:heavy_check_mark:|
+| Gumbel      | 7743.014    | 7749.4        | -3869.507      |:x:  ✘            |
+| Weibull     | 4835.001    | 4841.387      | -2415.50       |:x:    ✘          |
+| Fréchet     | 4821.952    | 4831.53       | -2407.976      |:heavy_check_mark: ✔|
 
 Known to have the best performance in capturing heavy right tails, the Fréchet distribution is 
 commonly used in studies to model extreme phenomena in fields such as meteorology, hydrology, and finance (RAL 2022). With a shape parameter (α), scale parameter (σ), and location parameter (μ), the parameter estimates are shown in [Appendix D](#d) and the probability 
