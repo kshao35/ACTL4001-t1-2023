@@ -2,6 +2,8 @@
 
 #### March 2023
 
+$$f(X,n) = X_n + X_{n-1}$$
+
 ###### Team: The Standard Deviants (UNSW)
 ###### Members: Jennifer Lin, Rosy Liu, Kevin Shao, Jessica Zhao, Sharon Zhou 
 
