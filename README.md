@@ -157,12 +157,12 @@ For example, to obtain a damage estimate of a minor event, the 50% quantile of o
 #### 3.1.3 OBTAINING CONFIDENCE INTERVALS
 To determine confidence intervals (CIs) for the predictions, percentile bootstrapping was chosen over other bootstrapping methods to generate more stable results, given there are many extreme data points. The dataset was resampled Β = 1000 times with replacement, and from each resampled dataset, a hazard rate and severity value were calculated for each of the 6 regions. The 95% confidence interval was then constructed as follows by taking the interval between the 25th quantile value to the 975th quantile value from the 1000 estimates in the bootstrapped sample:
 
-$$[\hat \theta_{lower} ,\hat \theta_{upper}] = [\theta_\frac{α}{2}$$
+$$[\hat \theta_{lower} ,\hat \theta_{upper}] = [\hat \theta^{\ast}_{\frac{α}{2} \times B^{\prime}} \hat \theta^{\ast}_{(1-\dfrac{α}{2}) \times B}]$$
 
 #### 3.1.4 PROJECTING DAMAGE ESTIMATES
 After obtaining the return period and severity values for each region, the damage estimates were projected into the future by re-evaluating the likelihood of a disaster of each magnitude occurring. For example, if there was a certain disaster with a return period of 2 years, it would be expected to occur 0.5 times on average per year. To achieve this, LOESS models were fit to the provided future atmospheric CO2 emissions to obtain annual estimates under each SSP model up until 2150 (see Appendix E). The Risk Adjustment Factor (RAF) was calculated as 
 
-		$$ 
+$$RAF_{Year} = (\dfrac{CO2_{Year}}{CO2_{2020}})^{2) 
 		
 and multiplied by these annual frequencies to account for the increasing intensity of hazard events with higher CO2 
 emissions. With a hypothetical RAF of 1.1, the disaster would now occur 0.55 times annually, and return every 1/0.55 = 1.81 years instead.
