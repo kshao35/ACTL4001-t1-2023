@@ -1,22 +1,5 @@
 # Relocation Social Insurance Program Report: Storslysia
 
-
-Sharon Zhou
-| Assumptions                                                                                         | Rationale                                                                                                                                                                 | Analysis                                                                                          |
-|-----------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------|
-| Storslysia’s population and GDP is a constant percentage of the world population and GDP over time. | This provides a consistent framework for analysis and incorporates global population trends. Further, it considers the interaction of Storslysia with the global economy. | Changes in population and GDP trends will influence policyholder uptake.                          |
-| The distribution of property value remains constant over time.                                      | This enables a more accurate and equitable allocation of premiums paid by policyholders.                                                                                  | Shifts in wealth distribution will influence premium determination, and property damage sizes.    |
-| Return period linkage to severity classes.                                                          | Catastrophic hazard events are rarer in occurrence than minor events.                                                                                                     | Climate risk change in non-linear ways may result in unexpected claims burdens.                   |
-| Economic cost assumptions.                                                                          | For ease of modelling, constant numbers were assumed for various economic factors. These estimates were informed from external research. Refer to 3.2.                    | Changes in economic factors are unlikely to remain constant over time, resulting in inaccuracies. |
-
-
-
-
-
-
-
-
-
 #### March 2023
 
 ##### Team: The Standard Deviants (UNSW)
@@ -251,9 +234,13 @@ The process of grouping correlated natural events was utilised to simplify hazar
 
 ***Aforementioned Assumptions***
 
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/93301287/228832493-b72cc725-74fb-47a9-b64a-f4fb3c8cd372.png"/>
-</p>
+| **Assumptions**                                                                                         | **Rationale**                                                                                                                                                                | **Analysis**                                                                                          |
+|-----------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------|
+| Storslysia’s population and GDP is a constant percentage of the world population and GDP over time. | This provides a consistent framework for analysis and incorporates global population trends. Further, it considers the interaction of Storslysia with the global economy. | Changes in population and GDP trends will influence policyholder uptake.                          |
+| The distribution of property value remains constant over time.                                      | This enables a more accurate and equitable allocation of premiums paid by policyholders.                                                                                  | Shifts in wealth distribution will influence premium determination, and property damage sizes.    |
+| Return period linkage to severity classes.                                                          | Catastrophic hazard events are rarer in occurrence than minor events.                                                                                                     | Climate risk change in non-linear ways may result in unexpected claims burdens.                   |
+| Economic cost assumptions.                                                                          | For ease of modelling, constant numbers were assumed for various economic factors. These estimates were informed from external research. Refer to 3.2.                    | Changes in economic factors are unlikely to remain constant over time, resulting in inaccuracies. |
+
 
 ## SECTION 5: RISKS & RISK MITIGATION CONSIDERATIONS <a name="risksmitigation"></a>
 ### 5.1 RISK ASSESSMENT  <a name="riskassess"></a>
