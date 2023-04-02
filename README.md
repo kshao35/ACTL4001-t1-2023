@@ -138,13 +138,15 @@ Each distribution was accordingly fitted to the property damage data and compare
 | Distribution| AIC         | BIC           | Log-Likelihood | Final Selection |
 |:-----------:|:-----------:|:-------------:|:-------------: |:-------------:  |
 | Gumbel      | 7743.014    | 7749.4        | -3869.507      |:x:              |
-| Weibull     | 4835.001    | 4841.387      | -2415.50       |x:               |
+| Weibull     | 4835.001    | 4841.387      | -2415.50       |:x:              |
 | Fréchet     | 4821.952    | 4831.53       | -2407.976      |:heavy_check_mark:|
 
 Known to have the best performance in capturing heavy right tails, the Fréchet distribution is 
 commonly used in studies to model extreme phenomena in fields such as meteorology, hydrology, and finance (RAL 2022). With a shape parameter (α), scale parameter (σ), and location parameter (μ), the parameter estimates are shown in Appendix D and the probability 
 density function is shown below:
         
+$$f(x;α,σ,μ) = \dfrac{α}{σ} \times (\dfrac{x-μ}{σ})^{-1-α} \times \mathrm{e}^{-(\dfrac{x-μ}{σ})^{-α}}$$
+
 	$$f(x;α,σ,μ) = \dfrac{α}{σ} \times (\dfrac{x-μ}{σ})^{-1-α} \times \mathrm{e}^{-(\dfrac{x-μ}{σ})^{-α}}$$
 
 #### 3.1.2 CALCULATING RETURN PERIOD
