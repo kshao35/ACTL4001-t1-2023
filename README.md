@@ -302,19 +302,64 @@ Finally, it is recommended that preventative measures be introduced alongside th
 Limits and deductibles were selected based on minor-to-catastrophic hazard event simulations, although these are adjustable depending on funding sources of the insurance program. 
 
 #### APPENDIX B: HISTOGRAM OF ACUTE AND CHRONIC HAZARD EVENTS <a name="b"></a>
+
+<p align="center">
+  <img src=""/>
+</p>
+
 #### APPENDIX C: FRÉCHET GOODNESS-OF-FIT PLOTS  <a name="c"></a>
+
+<p align="center">
+  <img src=""/>
+</p>
+
 #### APPENDIX D: PARAMETER ESTIMATES  <a name="d"></a>
+
+<p align="center">
+  <img src=""/>
+</p>
+
 #### APPENDIX E: STORSLYSIA CO2 EMISSION PROJECTIONS <a name="e"></a>
+
+<p align="center">
+  <img src=""/>
+</p>
+
 #### APPENDIX F: PROPERTY VALUE DISTRIBUTIONS <a name="f"></a>
 The properties in Storslysia were categorised into 6 groups according to their property value: <100K, 100-199K, 200-299K, 300-499K, 500-999K, >$1M.
 
+<p align="center">
+  <img src=""/>
+</p>
+
+
 #### APPENDIX G: ANNUAL PROPERTY DAMAGE BY MEDIAN DAMAGE <a name="g"></a>
+
+<p align="center">
+  <img src=""/>
+</p>
+
 #### APPENDIX H: ANNUAL PERCENTAGE OF PARTICIPANTS THAT PARTICIPATE IN BUYBACK SCHEME <a name="h"></a>
+
+<p align="center">
+  <img src=""/>
+</p>
+
 A sigmoid distribution is a type of probability distribution that is often used to model events that have a cumulative effect over time. It is characterized by an S-shaped curve, with a slow initial phase, a rapid growth phase, and a saturation phase where the rate of adoption levels off. The adoption of a buyback scheme may follow a sigmoid distribution if it involves a gradual process of awareness, consideration, and decision-making among potential participants.
 
 #### APPENDIX I: STORSLYSIA’S POPULATION PROJECTION <a name="i"></a>
+
+<p align="center">
+  <img src=""/>
+</p>
+
 #### APPENDIX J: BASE PREMIUMS  <a name="j"></a>
 The base premiums for 2020 in the 4 SSP scenarios can be found in the following table. Base premiums until 2100 are detailed in the supporting documents. 
+
+<p align="center">
+  <img src=""/>
+</p>
+
 
 #### APPENDIX K: ECONOMIC CAPITAL FURTHER ANALYSIS <a name="k"></a>
 Further analysis of each model's projected economic capital reveals that the four emission scenarios influence the trends:
@@ -328,6 +373,11 @@ Further analysis of each model's projected economic capital reveals that the fou
 •	Under ***SSP1***, emissions are similarly projected to improve over time. Trends in economic capital remain significantly more constant in comparison to the other three models. A decline is observed at a much earlier stage, from 2050 onwards. Much like the SSP2 model, reduced frequency and severity of hazard events will correspond to a decreased demand for economic capital.
 
 #### APPENDIX L: VOLUNTARY VS INVOLUNTARY COSTS BY REGION <a name="l"></a>
+
+<p align="center">
+  <img src=""/>
+</p>
+
 #### APPENDIX M: LIMIT & DEDUCTIBLE <a name="m"></a>
 •Hurricane and tropical storms always occur simultaneously and hence were classified ‘hurricane’
 
@@ -339,11 +389,31 @@ Further analysis of each model's projected economic capital reveals that the fou
 
 •	If both chronic and acute events occurred together, the acute event was assigned 100% of property damage
 
+<p align="center">
+  <img src=""/>
+</p>
+
+
 #### APPENDIX N: LIMIT & DEDUCTIBLE <a name="n"></a>
 A worst-case scenario was modelled with a 10% increase past the limits of materials & labour costs, and the cost of replacing household goods (to 55% and 82.5% respectively). The resulting accumulated reserves are plotted above.
 
+<p align="center">
+  <img src=""/>
+</p>
+
+
 #### APPENDIX O: LIMIT & DEDUCTIBLE <a name="o"></a>
+
+<p align="center">
+  <img src=""/>
+</p>
+
 #### APPENDIX P: LIMIT & DEDUCTIBLE <a name="p"></a>
+
+<p align="center">
+  <img src=""/>
+</p>
+
 
 
 
