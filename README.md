@@ -2,7 +2,7 @@
 
 #### March 2023
 
-$$[\hat \theta_{lower} ,\hat \theta_{upper}] = [\hat \theta^{\ast}_{\frac{α}{2} \times B^{\prime}} \hat \theta^{\ast}_{(1-\dfrac{α}{2}) \times B}]$$
+$$RAF_{Year} = (\dfrac{CO2_{Year}}{CO2_{2020}})^{2)$$
 
 
 ###### Team: The Standard Deviants (UNSW)
@@ -162,7 +162,7 @@ $$[\hat \theta_{lower} ,\hat \theta_{upper}] = [\hat \theta^{\ast}_{\frac{α}{2}
 #### 3.1.4 PROJECTING DAMAGE ESTIMATES
 After obtaining the return period and severity values for each region, the damage estimates were projected into the future by re-evaluating the likelihood of a disaster of each magnitude occurring. For example, if there was a certain disaster with a return period of 2 years, it would be expected to occur 0.5 times on average per year. To achieve this, LOESS models were fit to the provided future atmospheric CO2 emissions to obtain annual estimates under each SSP model up until 2150 (see Appendix E). The Risk Adjustment Factor (RAF) was calculated as 
 
-$$RAF_{Year} = (\dfrac{CO2_{Year}}{CO2_{2020}})^{2) 
+$$RAF_{Year} = (\dfrac{CO2_{Year}}{CO2_{2020}})^{2)$$
 		
 and multiplied by these annual frequencies to account for the increasing intensity of hazard events with higher CO2 
 emissions. With a hypothetical RAF of 1.1, the disaster would now occur 0.55 times annually, and return every 1/0.55 = 1.81 years instead.
