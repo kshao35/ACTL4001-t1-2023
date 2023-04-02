@@ -2,7 +2,7 @@
 
 #### March 2023
 
-$$[\hat \theta_{lower} ,\hat \theta_{upper}] = [\theta \ast_{\frac{α}{2} \times B\prime$$
+$$[\hat \theta_{lower} ,\hat \theta_{upper}] = [\hat \theta \ast_{\frac{α}{2} \times B\prime} . \hat \theta \ast_{(1-\dfrac{α}{2}) \times B}$$
 
 
 ###### Team: The Standard Deviants (UNSW)
