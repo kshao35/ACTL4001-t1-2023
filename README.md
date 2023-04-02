@@ -18,26 +18,41 @@
 
 [*2.1 Requirements*](#requirements)
 
-[*2.2 Coverage and Features*](#requirements)
-### 2.2 COVERAGE AND FEATURES <a name="coverage"></a>
+[*2.2 Coverage & Features*](#coverage)
 
-### 2.3 QUALITATIVE/QUANTITATIVE JUSTIFICATION FOR PROGRAM  <a name="qualitative"></a>
-### 2.4 SHORT-TERM & LONG-TERM PROGRAM EVALUATION TIME FRAME  <a name="qualitative"></a>
-## SECTION 3: PRICING & COSTS <a name="pricencost"></a>
-### 3.1 DAMAGE MODEL <a name="dmgmodel"></a>
-### 3.2 ECONOMIC COSTS WITH AND WITHOUT PROGRAM <a name="econcost"></a>
-### 3.3 PREMIUM SETTING <a name="premiumsetting"></a>
-### 3.4 ECONOMIC CAPITAL  <a name="economiccapital"></a>
-### 3.5 COSTS OF VOLUNTARY VS EMERGENCY DISPLACEMENT  <a name="displacement"></a>
-## SECTION 4: ASSUMPTIONS SUMMARY <a name="assumptionsum"></a>
-## SECTION 5: RISKS & RISK MITIGATION CONSIDERATIONS <a name="risksmitigation"></a>
-### 5.1 RISK ASSESSMENT  <a name="riskassess"></a>
-### 5.2 SENSITIVITY ANALYSIS  <a name="sensitivityanalysis"></a>
-### 5.3 FINANCIAL VIABILITY OF PROGRAM   <a name="viability"></a>
-## SECTION 6: DATA & DATA LIMITATIONS  <a name="datalimits"></a>
-### 6.1 DATA SOURCES   <a name="source"></a>
-### 6.2 DATA LIMITATIONS   <a name="datalimits"></a>
-## SECTION 7: FINAL RECOMMENDATIONS  <a name="finalrec"></a>
+[*2.3 Qualitative/Quantitative Justification for Program*](#justify)
+
+[*2.4 Short-Term & Long-Term Program Evaluation Time Frame*](#evaluation)
+
+[*Section 3: Pricing & Costs*](#pricencost)
+
+[*3.1 Damage Model*](#dmgmodel)
+
+[*3.2 Economic Costs With & Without Program*](#econcost)
+
+[*3.3 Premium Setting*](#premiumsetting)
+
+[*3.4 Economic Capital*](#economiccapital)
+
+[*3.5 Costs of Voluntary vs Emergency Displacement*](#displacement)
+
+[*Section 4: Assumptions Summary*](#assumptionsum)
+
+[*Section 5: Risks & Risk Mitigation Considerations*](#risksmitigation)
+
+[*5.1 Risk Assessment*](#riskassess)
+
+[*5.2 Sensitivity Analysis*](#sensitivityanalysis)
+
+[*5.3 Financial Viability of Program*](#viability)
+
+[*Section 6: Data & Data Limitations*](#data)
+
+[*6.1 Data Sources*](#source)
+
+[*6.2 Data Limitations*](#datalimits)
+
+[*Section 7: Final Recommendations*](#finalrec)
 
 
 ## EXECUTIVE SUMMARY <a name="executivesum"></a>
@@ -90,7 +105,7 @@ To file a claim within this program, policyholders must satisfy certain requirem
 - Proof of displacement for those claiming relocation fees, where policyholders need to provide proof of temporary living arrangements, such as receipts for hotel stays or rental agreements.
 - Compliance with policy terms, where policyholders must pay premiums on time and provide accurate information when applying for the policy and making any claims.
 
-### 2.2 COVERAGE AND FEATURES <a name="coverage"></a>
+### 2.2 COVERAGE & FEATURES <a name="coverage"></a>
 This insurance program will cover the following areas: 
 - ***Proactive relocation:*** Financial assistance for individuals or families who voluntarily relocate to a safer area prior to a catastrophic event. This will involve offering to buyback houses, with limitations described below.
 - ***Involuntary displacement:*** Coverage for involuntary displacement following a hazard event will include financial assistance to cover the costs of temporary housing and property damage.
@@ -98,10 +113,10 @@ This insurance program will cover the following areas:
 - ***Limitations of coverage:***  The program has a deductible of $1,000 and limit of $600,000. Additionally, temporary housing costs following a hazard event will only be covered by the program for 6 months. The buyback scheme will only be offered to houses valued below Ꝕ300K in Storslysia that are at risk of severe or catastrophic hazard events. Refer to Appendix A for further detail.
 - ***Voluntary RElocation Incentives:*** Through the buyback scheme, policyholders will be incentivised to relocate to lower-risk areas in order to reduce the likelihood of displacement and pay reduced premiums.
 
-### 2.3 QUALITATIVE/QUANTITATIVE JUSTIFICATION FOR PROGRAM  <a name="qualitative"></a>
+### 2.3 QUALITATIVE/QUANTITATIVE JUSTIFICATION FOR PROGRAM  <a name="justify"></a>
 Economic costs as defined under the program include property damage, labour and material costs, business interruption costs, temporary housing costs and contents coverage costs. The social insurance program is necessary to reduce the burden of such costs for both the government and the citizens of Storslysia, and to implement preventative measures as the climate situation worsens as depicted in the SSP scenarios. The proposed program will reduce economic costs by approximately 16.58% in the short-term and 28.75% in the long-term, which will be validated in Section 3. 
 
-### 2.4 SHORT-TERM & LONG-TERM PROGRAM EVALUATION TIME FRAME  <a name="qualitative"></a>
+### 2.4 SHORT-TERM & LONG-TERM PROGRAM EVALUATION TIME FRAME  <a name="evaluation"></a>
 A short-term time frame of 10 years (2020-30) was selected to obtain sufficient data points to evaluate program success using the aforementioned metrics. Over the short-term, ongoing monitoring and adjustments to the insurance program can be made.
 The long-term time frame of 50 years (2020-70) was selected to account for climate factors that shift over multiple decades. This includes temperature, sea level, and other variables that impact risks like coastal erosion. Additionally, it often takes time for the effects of government climate policies to be realised. Time frames of over 50 years were deemed impractical and unmanageable as they are often superseded in priority by shorter-term events.
 
@@ -155,7 +170,7 @@ After obtaining the return period and severity values for each region, the damag
 and multiplied by these annual frequencies to account for the increasing intensity of hazard events with higher CO2 
 emissions. With a hypothetical RAF of 1.1, the disaster would now occur 0.55 times annually, and return every 1/0.55 = 1.81 years instead.
 
-### 3.2 ECONOMIC COSTS WITH AND WITHOUT PROGRAM <a name="econcost"></a>
+### 3.2 ECONOMIC COSTS WITH & WITHOUT PROGRAM <a name="econcost"></a>
 #### 3.2.1 ECONOMIC COST FACTORS
 To compare the financial situation with insurance (WI) and without insurance (WOI), the annual economic cost of hazard events across Storslysia was calculated. The factors that contribute to these values are as follows.
 
@@ -250,7 +265,7 @@ To minimise costs to 10% of Storslysia’s annual GDP, projections of future GDP
 
 ![image](https://user-images.githubusercontent.com/93301287/228833551-4d72d7ff-8707-4ed6-9bf5-887305aecf57.png)
 
-## SECTION 6: DATA & DATA LIMITATIONS  <a name="datalimits"></a>
+## SECTION 6: DATA & DATA LIMITATIONS  <a name="data"></a>
 ### 6.1 DATA SOURCES   <a name="source"></a>
 The data provided by the task force was used to create this proposal, and no further external data sources were used. The datasets used included:
 •	Demographic and economic information of Storslysia up to 2022;
