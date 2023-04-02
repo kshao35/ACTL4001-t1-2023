@@ -2,7 +2,7 @@
 
 #### March 2023
 
-$$f(x;α,σ,μ) = \dfrac{α}{σ} \times (\dfrac{x-μ}{σ})^{-1-α}$$
+$$f(x;α,σ,μ) = \dfrac{α}{σ} \times (\dfrac{x-μ}{σ})^{-1-α} \times \mathrm{e}^{-(\dfrac{x-μ}{σ})^{-α}}$$
 
 × \frac{{x-μ}{σ}}^{-1-α} × \exp{-{\frac{{x-μ}{σ}}^{-α}}}
 
