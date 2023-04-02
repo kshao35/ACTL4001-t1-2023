@@ -102,7 +102,11 @@ Known to have the best performance in capturing heavy right tails, the Fréchet 
 commonly used in studies to model extreme phenomena in fields such as meteorology, hydrology, and finance (RAL 2022). With a shape parameter (α), scale parameter (σ), and location parameter (μ), the parameter estimates are shown in Appendix D and the probability 
 density function is shown below:
 
-	$\sqrt{3x-1}+(1+x)^2$
+$\sqrt{3x-1}+(1+x)^2$
+
+```math
+\sqrt{3}
+```
         
 	$ f(x;α,σ,μ) = \frac{α}{σ} × $
 
