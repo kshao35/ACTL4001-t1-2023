@@ -128,9 +128,9 @@ which are modelled as below.
 
 ### 3.1 DAMAGE MODEL <a name="dmgmodel"></a>
 #### 3.1.1 FITTING A PROPERTY DAMAGE DISTRIBUTION
-Property damage was modelled by considering the occurrence of climate-related catastrophes. As hazard events like floods, bushfires and hurricanes are low frequency but high impact, a statistical approach known as Extreme Value Analysis (EVA) was conducted to capture information at the tails, where the rarest and most extreme events occur (see Appendix B). There are three extreme value distributions (EVDs) commonly used, namely the Gumbel, Weibull and Fréchet distributions. 
+Property damage was modelled by considering the occurrence of climate-related catastrophes. As hazard events like floods, bushfires and hurricanes are low frequency but high impact, a statistical approach known as Extreme Value Analysis (EVA) was conducted to capture information at the tails, where the rarest and most extreme events occur (see [Appendix](#b)). There are three extreme value distributions (EVDs) commonly used, namely the Gumbel, Weibull and Fréchet distributions. 
 
-Each distribution was accordingly fitted to the property damage data and compared using statistical tests including AIC, BIC, and Log-Likelihood to determine the best model. The results of the analysis indicate that the Fréchet distribution provides the best fit for the dataset, as evidenced by its superior performance across all statistical tests and goodness-of-fit plots (see Appendix C).
+Each distribution was accordingly fitted to the property damage data and compared using statistical tests including AIC, BIC, and Log-Likelihood to determine the best model. The results of the analysis indicate that the Fréchet distribution provides the best fit for the dataset, as evidenced by its superior performance across all statistical tests and goodness-of-fit plots (see [Appendix](#c)).
 	
 *Table 1: Results of statistical tests for extreme value distributions*
 
@@ -141,7 +141,7 @@ Each distribution was accordingly fitted to the property damage data and compare
 | Fréchet     | 4821.952    | 4831.53       | -2407.976      |:heavy_check_mark:|
 
 Known to have the best performance in capturing heavy right tails, the Fréchet distribution is 
-commonly used in studies to model extreme phenomena in fields such as meteorology, hydrology, and finance (RAL 2022). With a shape parameter (α), scale parameter (σ), and location parameter (μ), the parameter estimates are shown in Appendix D and the probability 
+commonly used in studies to model extreme phenomena in fields such as meteorology, hydrology, and finance (RAL 2022). With a shape parameter (α), scale parameter (σ), and location parameter (μ), the parameter estimates are shown in [Appendix](#d) and the probability 
 density function is shown below:
         
 $$f(x;α,σ,μ) = \dfrac{α}{σ} \times (\dfrac{x-μ}{σ})^{-1-α} \times \mathrm{e}^{-(\dfrac{x-μ}{σ})^{-α}}$$
@@ -159,7 +159,7 @@ To determine confidence intervals (CIs) for the predictions, percentile bootstra
 $$[\hat \theta_{lower} ,\hat \theta_{upper}] = [\hat \theta^{\ast}_{\frac{α}{2} \times B^{\prime}} \hat \theta^{\ast}_{(1-\dfrac{α}{2}) \times B}]$$
 
 #### 3.1.4 PROJECTING DAMAGE ESTIMATES
-After obtaining the return period and severity values for each region, the damage estimates were projected into the future by re-evaluating the likelihood of a disaster of each magnitude occurring. For example, if there was a certain disaster with a return period of 2 years, it would be expected to occur 0.5 times on average per year. To achieve this, LOESS models were fit to the provided future atmospheric CO2 emissions to obtain annual estimates under each SSP model up until 2150 (see Appendix E). The Risk Adjustment Factor (RAF) was calculated as 
+After obtaining the return period and severity values for each region, the damage estimates were projected into the future by re-evaluating the likelihood of a disaster of each magnitude occurring. For example, if there was a certain disaster with a return period of 2 years, it would be expected to occur 0.5 times on average per year. To achieve this, LOESS models were fit to the provided future atmospheric CO2 emissions to obtain annual estimates under each SSP model up until 2150 (see [Appendix](#e)). The Risk Adjustment Factor (RAF) was calculated as 
 
 $$RAF_{Year} = (\dfrac{CO2_{Year}}{CO2_{2020}})^{2}$$
 
@@ -172,7 +172,7 @@ To compare the financial situation with insurance (WI) and without insurance (WO
 
 ***Property Damage Inflated by Materials & Labour Cost***
 
-The properties in Storslysia were categorised into 6 groups according to property value as depicted in Appendix F. This categorisation was used to balance accuracy with simplicity in the modelling. Next, total annual property damage was divided proportionally between these household groups in each region. The number of households affected in each group was then estimated by dividing annual property damage by median damage (estimated with percentages in Appendix G for each household group) and subsequently the number of people affected was calculated using the persons per household data. Following natural disasters, demand for materials and labour for repair purposes skyrocket, amplifying property damage costs by a factor between 0-50%.
+The properties in Storslysia were categorised into 6 groups according to property value as depicted in [Appendix](#f). This categorisation was used to balance accuracy with simplicity in the modelling. Next, total annual property damage was divided proportionally between these household groups in each region. The number of households affected in each group was then estimated by dividing annual property damage by median damage (estimated with percentages in [Appendix](#g) for each household group) and subsequently the number of people affected was calculated using the persons per household data. Following natural disasters, demand for materials and labour for repair purposes skyrocket, amplifying property damage costs by a factor between 0-50%.
 
 ***Temporary Housing Cost***
 
@@ -187,19 +187,19 @@ Following the occurrence of hazard events, it is common that the economy undergo
 Contents coverage provides financial protection for the personal belongings and contents inside a home in the event of climate-related hazards. The costs associated with replacing lost household goods were given to range from 40-75% of median homeowner costs calculated on an annual basis for an affected household in each region.
 
 #### 3.2.2 ECONOMIC COST PROJECTIONS
-Figure 1 and Figure 2 compares the annual cost projection of WI and WOI models. The insurance program’s buyback scheme gradually relocates high-risk households to lower-risk areas for the first three household groups, as described in the previous section. As such, WI projection reduces Storslysia’s economic losses by minimising the costs outlined in Section 3.2.1 for households who participate in the relocation scheme. The annual percentage of participants is assumed to follow a sigmoid distribution, where the terminal percentage of relocation is 60% (see Appendix H).
+Figure 1 and Figure 2 compares the annual cost projection of WI and WOI models. The insurance program’s buyback scheme gradually relocates high-risk households to lower-risk areas for the first three household groups, as described in the previous section. As such, WI projection reduces Storslysia’s economic losses by minimising the costs outlined in Section 3.2.1 for households who participate in the relocation scheme. The annual percentage of participants is assumed to follow a sigmoid distribution, where the terminal percentage of relocation is 60% (see [Appendix](#h)).
 
 ![image](https://user-images.githubusercontent.com/93301287/228831147-a5774dbc-1a05-4f6b-bdf8-8bfb45315a67.png)
 
 As mentioned in Section 2.3, these models demonstrate the program will reduce economic costs by approximately 16.58% in the short-term and 28.75% in the long-term. Under SSP1 and SSP2, the WI model is clearly following a different trajectory relative to the WOI model, indicative of the success of the insurance program in reducing costs under these climate scenarios. For SSP3 and SSP5, whilst the shape of the WI and WOI curves are similar overall, in the short-to-medium-term, the WI curve is more convex, suggesting successful reduction of costs in this timeframe.
 
 ### 3.3 PREMIUM SETTING <a name="premiumsetting"></a>
-The policyholder premiums were set by first determining the number of policyholders in each region per year. Quadratic regression models were fit to the world population projections, and a constant percentage is taken as Storslysia’s population share (see Appendix I). It is assumed that 50% of the population was insured and that there was one policyholder per household, with an average of 2.527 individuals per household.
+The policyholder premiums were set by first determining the number of policyholders in each region per year. Quadratic regression models were fit to the world population projections, and a constant percentage is taken as Storslysia’s population share (see [Appendix](#i)). It is assumed that 50% of the population was insured and that there was one policyholder per household, with an average of 2.527 individuals per household.
 
-The average annual premium per policyholder was determined by dividing the economic cost projections by the number of policyholders for each region. Within the six different household groups described previously, 30%, 50%, 100%, 150%, 200% and 300% of this amount was allocated respectively to factor in total property value insured. Finally, Appendix J presents the base premiums for the year 2020 under each SSP model.
+The average annual premium per policyholder was determined by dividing the economic cost projections by the number of policyholders for each region. Within the six different household groups described previously, 30%, 50%, 100%, 150%, 200% and 300% of this amount was allocated respectively to factor in total property value insured. Finally, [Appendix](#j) presents the base premiums for the year 2020 under each SSP model.
 
 ### 3.4 ECONOMIC CAPITAL  <a name="economiccapital"></a>
-The proposed insurance program evaluated economic capital for all four SSP models, covering years 2020 to 2070. Under the 95% confidence interval applied to projected economic costs, the following results in Figure 3 are also within a 95% confidence range. As observed, minor fluctuations occur within each model due to the unpredictability of weather events. Further analysis on trends is included in Appendix K.
+The proposed insurance program evaluated economic capital for all four SSP models, covering years 2020 to 2070. Under the 95% confidence interval applied to projected economic costs, the following results in Figure 3 are also within a 95% confidence range. As observed, minor fluctuations occur within each model due to the unpredictability of weather events. Further analysis on trends is included in [Appendix](#k).
 
 ![image](https://user-images.githubusercontent.com/93301287/228831761-d0e16645-086d-4c98-b552-d46ee6927ee8.png)
 
@@ -223,7 +223,7 @@ The program defines the following definitions:
 
 •	***Involuntary Displacement Cost*** is the cost of temporary disaster accommodation for affected households in each region based on an average stay of 6 months. 
 
-Figure 5 depicts the cumulative program cost projection for both voluntary relocation and emergency displacement across all SSP scenarios. These results demonstrate that there are minimal cost savings between the two groups in the short-term. However, as time horizon increases, a large disparity in the costs accumulate, suggesting that a swift adoption of the buyback scheme in Storslysia will minimise long-term costs and promote the financial sustainability of the program. Additionally, the more intensive the SSP emission scenario is, the wider the disparity between the groups will be as time progresses. A region-by-region breakdown of costs is provided in Appendix L
+Figure 5 depicts the cumulative program cost projection for both voluntary relocation and emergency displacement across all SSP scenarios. These results demonstrate that there are minimal cost savings between the two groups in the short-term. However, as time horizon increases, a large disparity in the costs accumulate, suggesting that a swift adoption of the buyback scheme in Storslysia will minimise long-term costs and promote the financial sustainability of the program. Additionally, the more intensive the SSP emission scenario is, the wider the disparity between the groups will be as time progresses. A region-by-region breakdown of costs is provided in [Appendix](#l)
 
 ![image](https://user-images.githubusercontent.com/93301287/228832229-81d456c6-3c88-4d9c-b7b2-87c8339d6646.png)
 
@@ -234,7 +234,7 @@ Figure 5 depicts the cumulative program cost projection for both voluntary reloc
 ## SECTION 4: ASSUMPTIONS SUMMARY <a name="assumptionsum"></a>
 ***Hazard Data Classification and Processing***
 
-The process of grouping correlated natural events was utilised to simplify hazard assessment and management. By identifying which hazards tended to occur simultaneously, the number of unique hazards was reduced from approximately 50 to 13 (refer to Appendix M for classifications). However, it is acknowledged that grouping events together results in some loss of detail and granularity. An outlier landslide event was excluded from the study and seasonality effects were assumed to be negligible for simplicity.
+The process of grouping correlated natural events was utilised to simplify hazard assessment and management. By identifying which hazards tended to occur simultaneously, the number of unique hazards was reduced from approximately 50 to 13 (refer to [Appendix](#m) for classifications). However, it is acknowledged that grouping events together results in some loss of detail and granularity. An outlier landslide event was excluded from the study and seasonality effects were assumed to be negligible for simplicity.
 
 ***Aforementioned Assumptions***
 
@@ -255,12 +255,12 @@ Both quantifiable and qualitative risks that may arise in the implementation and
 </p>
 
 ### 5.2 SENSITIVITY ANALYSIS  <a name="sensitivityanalysis"></a>
-Sensitivity analysis was performed by adjusting the following key assumptions Table 4. The proposed insurance program will remain financially sustainable within the following recommended ranges. Refer to Appendix N for an example of a worst-case scenario. 
+Sensitivity analysis was performed by adjusting the following key assumptions Table 4. The proposed insurance program will remain financially sustainable within the following recommended ranges. Refer to [Appendix](#n) for an example of a worst-case scenario. 
 
 ![image](https://user-images.githubusercontent.com/93301287/228833403-1eeeee42-a945-4ece-9aed-e4215bfa749f.png)
 
 ### 5.3 FINANCIAL VIABILITY OF PROGRAM   <a name="viability"></a>
-To minimise costs to 10% of Storslysia’s annual GDP, projections of future GDP were first made. Logistic regression models were fit to the world GDP projections, and a constant percentage was taken as Storslysia’s GDP share (see Appendix O). Under 95% confidence intervals, the program costs lie well within 10% of Storslysia’s annual GDP under all four SSP scenarios until 2070 (see Appendix P). The below graphs supplement this by depicting the economic costs from 2020 to 2070 associated WI and WOI with a 95% CI (see Figures 6 & 7). 
+To minimise costs to 10% of Storslysia’s annual GDP, projections of future GDP were first made. Logistic regression models were fit to the world GDP projections, and a constant percentage was taken as Storslysia’s GDP share (see [Appendix](#o)). Under 95% confidence intervals, the program costs lie well within 10% of Storslysia’s annual GDP under all four SSP scenarios until 2070 (see [Appendix](#p)). The below graphs supplement this by depicting the economic costs from 2020 to 2070 associated WI and WOI with a 95% CI (see Figures 6 & 7). 
 
 ![image](https://user-images.githubusercontent.com/93301287/228833551-4d72d7ff-8707-4ed6-9bf5-887305aecf57.png)
 
@@ -286,7 +286,7 @@ The lack of certain data types limited the ability the program’s modelling to 
 
 
 ## SECTION 7: FINAL RECOMMENDATIONS  <a name="finalrec"></a>
-***Government-led Social Incentives***
+***Government-led social incentives***
 
 Additional incentives can be introduced to supplement the program, including assistance with housing, and accessing resources such as education, employment, and healthcare services. The government can also provide disaster preparedness training, increase awareness of climate risks, and community engagement activities to facilitate voluntary relocations.  
 
@@ -299,6 +299,24 @@ Finally, it is recommended that preventative measures be introduced alongside th
 ## SECTION 8: APPENDICES <a name="appendix"></a>
 
 ### APPENDIX A: LIMIT & DEDUCTIBLE <a name="a"></a>
+Limits and deductibles were selected based on minor-to-catastrophic hazard event simulations, although these are adjustable depending on funding sources of the insurance program. 
+
+### APPENDIX B: LIMIT & DEDUCTIBLE <a name="b"></a>
+### APPENDIX C: LIMIT & DEDUCTIBLE <a name="c"></a>
+### APPENDIX D: LIMIT & DEDUCTIBLE <a name="d"></a>
+### APPENDIX E: LIMIT & DEDUCTIBLE <a name="e"></a>
+### APPENDIX F: LIMIT & DEDUCTIBLE <a name="f"></a>
+### APPENDIX G: LIMIT & DEDUCTIBLE <a name="g"></a>
+### APPENDIX H: LIMIT & DEDUCTIBLE <a name="h"></a>
+### APPENDIX I: LIMIT & DEDUCTIBLE <a name="i"></a>
+### APPENDIX J: LIMIT & DEDUCTIBLE <a name="j"></a>
+### APPENDIX K: LIMIT & DEDUCTIBLE <a name="k"></a>
+### APPENDIX L: LIMIT & DEDUCTIBLE <a name="l"></a>
+### APPENDIX M: LIMIT & DEDUCTIBLE <a name="m"></a>
+### APPENDIX N: LIMIT & DEDUCTIBLE <a name="n"></a>
+### APPENDIX O: LIMIT & DEDUCTIBLE <a name="o"></a>
+### APPENDIX P: LIMIT & DEDUCTIBLE <a name="p"></a>
+
 
 
 
