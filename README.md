@@ -4,7 +4,9 @@
 
 $$f(x:n) = X_n + X_{n-1}$$
 
-$$f{x;α,σ,μ} = \frac{α}{σ} × \frac{{x-μ}{σ}}^{-1-α} × \exp{-{\frac{{x-μ}{σ}}^{-α}}}$$
+$$f{x;α,σ,μ} = \frac{α}{σ} $$
+
+× \frac{{x-μ}{σ}}^{-1-α} × \exp{-{\frac{{x-μ}{σ}}^{-α}}}
 
 ###### Team: The Standard Deviants (UNSW)
 ###### Members: Jennifer Lin, Rosy Liu, Kevin Shao, Jessica Zhao, Sharon Zhou 
