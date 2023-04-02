@@ -325,9 +325,12 @@ Limits and deductibles were selected based on minor-to-catastrophic hazard event
 
 #### APPENDIX D: PARAMETER ESTIMATES  <a name="d"></a>
 
-<p align="center">
-  <img src=""/>
-</p>
+|     Parameter     |     Estimate             | 
+|-------------------|--------------------------|
+|     Location (μ)  |     0.0002431343         |
+|     Scale (σ)     |     14504.2827892670     |
+|     Shape (α)     |     0.3832517900         | 
+
 
 #### APPENDIX E: STORSLYSIA CO2 EMISSION PROJECTIONS <a name="e"></a>
 
@@ -338,16 +341,24 @@ Limits and deductibles were selected based on minor-to-catastrophic hazard event
 #### APPENDIX F: PROPERTY VALUE DISTRIBUTIONS <a name="f"></a>
 The properties in Storslysia were categorised into 6 groups according to their property value: <100K, 100-199K, 200-299K, 300-499K, 500-999K, >$1M.
 
-<p align="center">
-  <img src=""/>
-</p>
-
+|     Household Group    |     Region    |               |               |               |               |               |
+|------------------------|---------------|---------------|---------------|---------------|---------------|---------------|
+|                        |     1         |     2         |     3         |     4         |     5         |     6         |
+|     1                  |     8.89%     |     11.70%    |     9.79%     |     37.70%    |     23.93%    |     23.38%    |
+|     2                  |     22.99%    |     22.24%    |     32.84%    |     33.04%    |     37.58%    |     29.41%    |
+|     3                  |     18.96%    |     20.67%    |     18.14%    |     12.13%    |     18.71%    |     16.07%    |
+|     4                  |     34.43%    |     35.70%    |     29.02%    |     13.04%    |     16.79%    |     25.03%    |
+|     5                  |     11.01%    |     7.96%     |     8.60%     |     2.91%     |     2.29%     |     4.63%     |
+|     6                  |     3.72%     |     1.73%     |     1.61%     |     1.18%     |     0.70%     |     1.48%     |
 
 #### APPENDIX G: ANNUAL PROPERTY DAMAGE BY MEDIAN DAMAGE <a name="g"></a>
 
-<p align="center">
-  <img src=""/>
-</p>
+|     Return   Period    |     Assumed   Damage Percentage    |
+|------------------------|------------------------------------|
+|     2                  |     0.5%                           |
+|     10                 |     2.0%                           |
+|     50                 |     15.0%                          |
+|     100                |     50.0%                          |
 
 #### APPENDIX H: ANNUAL PERCENTAGE OF PARTICIPANTS THAT PARTICIPATE IN BUYBACK SCHEME <a name="h"></a>
 
@@ -366,10 +377,33 @@ A sigmoid distribution is a type of probability distribution that is often used 
 #### APPENDIX J: BASE PREMIUMS  <a name="j"></a>
 The base premiums for 2020 in the 4 SSP scenarios can be found in the following table. Base premiums until 2100 are detailed in the supporting documents. 
 
-<p align="center">
-  <img src=""/>
-</p>
-
+|     Model    |     Region      |     Household Groups    |                 |                 |                 |                |             |
+|--------------|-----------------|-------------------------|-----------------|-----------------|-----------------|----------------|-------------|
+|              |                 |     <100k               |     100-200k    |     200-300k    |     300-500k    |     500k-1M    |     >1M     |
+|     SSP1     |     Region 1    |     45                  |     75          |     150         |     225         |     300        |     450     |
+|              |     Region 2    |     120                 |     200         |     400         |     600         |     800        |     1200    |
+|              |     Region 3    |     66                  |     110         |     220         |     330         |     440        |     660     |
+|              |     Region 4    |     99                  |     165         |     330         |     495         |     660        |     990     |
+|              |     Region 5    |     120                 |     200         |     400         |     600         |     800        |     1200    |
+|              |     Region 6    |     513                 |     855         |     1710        |     2565        |     3420       |     5130    |
+|     SSP2     |     Region 1    |     48                  |     80          |     160         |     240         |     320        |     480     |
+|              |     Region 2    |     129                 |     215         |     430         |     645         |     860        |     1290    |
+|              |     Region 3    |     72                  |     120         |     240         |     360         |     480        |     720     |
+|              |     Region 4    |     111                 |     185         |     370         |     555         |     740        |     1110    |
+|              |     Region 5    |     129                 |     215         |     430         |     645         |     860        |     1290    |
+|              |     Region 6    |     549                 |     915         |     1830        |     2745        |     3660       |     5490    |
+|     SSP3     |     Region 1    |     48                  |     80          |     160         |     240         |     320        |     480     |
+|              |     Region 2    |     126                 |     210         |     420         |     630         |     840        |     1260    |
+|              |     Region 3    |     69                  |     115         |     230         |     345         |     460        |     690     |
+|              |     Region 4    |     108                 |     180         |     360         |     540         |     720        |     1080    |
+|              |     Region 5    |     126                 |     210         |     420         |     630         |     840        |     1260    |
+|              |     Region 6    |     543                 |     905         |     1810        |     2715        |     3620       |     5430    |
+|     SSP5     |     Region 1    |     48                  |     80          |     160         |     240         |     320        |     480     |
+|              |     Region 2    |     129                 |     215         |     430         |     645         |     860        |     1290    |
+|              |     Region 3    |     72                  |     120         |     240         |     360         |     480        |     720     |
+|              |     Region 4    |     111                 |     185         |     370         |     555         |     740        |     1110    |
+|              |     Region 5    |     132                 |     220         |     440         |     660         |     880        |     1320    |
+|              |     Region 6    |     558                 |     930         |     1860        |     2790        |     3720       |     5580    |
 
 #### APPENDIX K: ECONOMIC CAPITAL FURTHER ANALYSIS <a name="k"></a>
 Further analysis of each model's projected economic capital reveals that the four emission scenarios influence the trends:
@@ -399,10 +433,15 @@ Further analysis of each model's projected economic capital reveals that the fou
 
 •	If both chronic and acute events occurred together, the acute event was assigned 100% of property damage
 
-<p align="center">
-  <img src=""/>
-</p>
-
+|     Acute           |     Chronic             |
+|---------------------|-------------------------|
+|     Flooding        |     Winter   Weather    |
+|     Coastal         |     Heat                |
+|     Hurricane       |     Drought             |
+|     Tornado         |     Fog                 |
+|     Thunderstorm    |     Hail                |
+|     Wildfire        |     Wind                |
+|                     |     Lightning           |
 
 #### APPENDIX N: LIMIT & DEDUCTIBLE <a name="n"></a>
 A worst-case scenario was modelled with a 10% increase past the limits of materials & labour costs, and the cost of replacing household goods (to 55% and 82.5% respectively). The resulting accumulated reserves are plotted above.
@@ -420,9 +459,59 @@ A worst-case scenario was modelled with a 10% increase past the limits of materi
 
 #### APPENDIX P: LIMIT & DEDUCTIBLE <a name="p"></a>
 
-<p align="center">
-  <img src=""/>
-</p>
+|     Year    |     SSP1       |     SSP2       |     SSP3       |     SSP5       |
+|-------------|----------------|----------------|----------------|----------------|
+|     2020    |     0.0681%    |     0.0685%    |     0.0686%    |     0.0681%    |
+|     2021    |     0.0663%    |     0.0674%    |     0.0679%    |     0.0664%    |
+|     2022    |     0.0645%    |     0.0664%    |     0.0672%    |     0.0649%    |
+|     2023    |     0.0627%    |     0.0654%    |     0.0665%    |     0.0634%    |
+|     2024    |     0.0610%    |     0.0643%    |     0.0659%    |     0.0620%    |
+|     2025    |     0.0593%    |     0.0633%    |     0.0653%    |     0.0606%    |
+|     2026    |     0.0577%    |     0.0623%    |     0.0647%    |     0.0593%    |
+|     2027    |     0.0562%    |     0.0613%    |     0.0641%    |     0.0581%    |
+|     2028    |     0.0547%    |     0.0603%    |     0.0635%    |     0.0570%    |
+|     2029    |     0.0532%    |     0.0593%    |     0.0630%    |     0.0559%    |
+|     2030    |     0.0518%    |     0.0584%    |     0.0625%    |     0.0549%    |
+|     2031    |     0.0504%    |     0.0574%    |     0.0620%    |     0.0539%    |
+|     2032    |     0.0491%    |     0.0565%    |     0.0615%    |     0.0530%    |
+|     2033    |     0.0478%    |     0.0555%    |     0.0611%    |     0.0521%    |
+|     2034    |     0.0465%    |     0.0546%    |     0.0607%    |     0.0513%    |
+|     2035    |     0.0453%    |     0.0537%    |     0.0603%    |     0.0505%    |
+|     2036    |     0.0442%    |     0.0529%    |     0.0599%    |     0.0497%    |
+|     2037    |     0.0430%    |     0.0520%    |     0.0595%    |     0.0490%    |
+|     2038    |     0.0419%    |     0.0511%    |     0.0592%    |     0.0483%    |
+|     2039    |     0.0409%    |     0.0503%    |     0.0589%    |     0.0477%    |
+|     2040    |     0.0399%    |     0.0495%    |     0.0586%    |     0.0470%    |
+|     2041    |     0.0389%    |     0.0487%    |     0.0583%    |     0.0465%    |
+|     2042    |     0.0379%    |     0.0479%    |     0.0580%    |     0.0459%    |
+|     2043    |     0.0370%    |     0.0471%    |     0.0578%    |     0.0454%    |
+|     2044    |     0.0361%    |     0.0463%    |     0.0575%    |     0.0449%    |
+|     2045    |     0.0353%    |     0.0455%    |     0.0573%    |     0.0445%    |
+|     2046    |     0.0344%    |     0.0448%    |     0.0571%    |     0.0441%    |
+|     2047    |     0.0336%    |     0.0440%    |     0.0569%    |     0.0437%    |
+|     2048    |     0.0329%    |     0.0433%    |     0.0567%    |     0.0433%    |
+|     2049    |     0.0321%    |     0.0425%    |     0.0566%    |     0.0430%    |
+|     2050    |     0.0314%    |     0.0418%    |     0.0564%    |     0.0427%    |
+|     2051    |     0.0307%    |     0.0411%    |     0.0563%    |     0.0424%    |
+|     2052    |     0.0300%    |     0.0404%    |     0.0561%    |     0.0422%    |
+|     2053    |     0.0294%    |     0.0398%    |     0.0560%    |     0.0420%    |
+|     2054    |     0.0288%    |     0.0391%    |     0.0560%    |     0.0418%    |
+|     2055    |     0.0281%    |     0.0384%    |     0.0559%    |     0.0416%    |
+|     2056    |     0.0275%    |     0.0378%    |     0.0559%    |     0.0415%    |
+|     2057    |     0.0270%    |     0.0372%    |     0.0558%    |     0.0414%    |
+|     2058    |     0.0264%    |     0.0366%    |     0.0558%    |     0.0413%    |
+|     2059    |     0.0259%    |     0.0360%    |     0.0558%    |     0.0412%    |
+|     2060    |     0.0254%    |     0.0354%    |     0.0558%    |     0.0412%    |
+|     2061    |     0.0249%    |     0.0348%    |     0.0558%    |     0.0412%    |
+|     2062    |     0.0244%    |     0.0342%    |     0.0559%    |     0.0411%    |
+|     2063    |     0.0239%    |     0.0337%    |     0.0559%    |     0.0411%    |
+|     2064    |     0.0235%    |     0.0331%    |     0.0559%    |     0.0412%    |
+|     2065    |     0.0230%    |     0.0326%    |     0.0560%    |     0.0412%    |
+|     2066    |     0.0226%    |     0.0321%    |     0.0560%    |     0.0413%    |
+|     2067    |     0.0222%    |     0.0315%    |     0.0561%    |     0.0413%    |
+|     2068    |     0.0218%    |     0.0310%    |     0.0562%    |     0.0414%    |
+|     2069    |     0.0215%    |     0.0305%    |     0.0562%    |     0.0415%    |
+|     2070    |     0.0211%    |     0.0300%    |     0.0563%    |     0.0416%    |
 
 
 
