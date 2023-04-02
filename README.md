@@ -8,18 +8,45 @@
 ## Table of contents
 [*Executive Summary*](#executivesum)
 
-[*Section 1: Program Synopsis*](#objectives)
+[*Section 1: Program Synopsis*](#synopsis)
 
-[Program Design](#programdesign)
+[*1.1 Objectives*](#objectives)
+
+[*1.2 Program Metrics*](#programmetrics)
+
+[*Section 2: Program Design](#programdesign)
+
+[*2.1 Requirements*](#requirements)
+
+[*2.2 Coverage and Features*](#requirements)
+### 2.2 COVERAGE AND FEATURES <a name="coverage"></a>
+
+### 2.3 QUALITATIVE/QUANTITATIVE JUSTIFICATION FOR PROGRAM  <a name="qualitative"></a>
+### 2.4 SHORT-TERM & LONG-TERM PROGRAM EVALUATION TIME FRAME  <a name="qualitative"></a>
+## SECTION 3: PRICING & COSTS <a name="pricencost"></a>
+### 3.1 DAMAGE MODEL <a name="dmgmodel"></a>
+### 3.2 ECONOMIC COSTS WITH AND WITHOUT PROGRAM <a name="econcost"></a>
+### 3.3 PREMIUM SETTING <a name="premiumsetting"></a>
+### 3.4 ECONOMIC CAPITAL  <a name="economiccapital"></a>
+### 3.5 COSTS OF VOLUNTARY VS EMERGENCY DISPLACEMENT  <a name="displacement"></a>
+## SECTION 4: ASSUMPTIONS SUMMARY <a name="assumptionsum"></a>
+## SECTION 5: RISKS & RISK MITIGATION CONSIDERATIONS <a name="risksmitigation"></a>
+### 5.1 RISK ASSESSMENT  <a name="riskassess"></a>
+### 5.2 SENSITIVITY ANALYSIS  <a name="sensitivityanalysis"></a>
+### 5.3 FINANCIAL VIABILITY OF PROGRAM   <a name="viability"></a>
+## SECTION 6: DATA & DATA LIMITATIONS  <a name="datalimits"></a>
+### 6.1 DATA SOURCES   <a name="source"></a>
+### 6.2 DATA LIMITATIONS   <a name="datalimits"></a>
+## SECTION 7: FINAL RECOMMENDATIONS  <a name="finalrec"></a>
 
 
 ## EXECUTIVE SUMMARY <a name="executivesum"></a>
 This report proposes a social insurance program designed to relieve the economic costs associated with climate-related catastrophes in Storslysia. The primary objective of the program is to mitigate the financial consequences for residents residing in high-risk areas facing displacement. The program covers costs arising from climate-related hazards such as temporary housing and household contents, but further assists Storslysia manage displacement risk through a buyback scheme aimedtowards high-risk, low value properties. By implementing the program, the program will reduce economic costs associated with climate catastrophe-related events by approximately 16.58% in the short-term and 28.75% in the long-term. Furthermore, the proposed social insurance program will continue to lower costs even if the climate situation deteriorates as represented by Shared Socioeconomic Pathways (SSP)scenarios. Hence, with 95% confidence, the program costs do not exceed 10% of Storslysia’s 
 annual GDP in all four SSP scenarios. However, risks such as increasingly correlated hazard events pose threats to the program meaning ongoing monitoring is recommended.
 
-## SECTION 1: PROGRAM SYNOPSIS
+## SECTION 1: PROGRAM SYNOPSIS <a name="synopsis"></a>
 
-### OBJECTIVES <a name="objectives"></a>
+### 1.1 OBJECTIVES <a name="objectives"></a>
 The proposed social insurance program is designed to provide citizens with financial protection and support from climate-related events. The program aims to reduce the costs associated with displacement and support the overall resilience of affected communities and individuals. More detailed outlines of the objectives are as below:
 
 **1. Mitigating Displacement Risk**
@@ -173,6 +200,10 @@ The key takeaway is that economic capital remains positive in both short and lon
 
 ![image](https://user-images.githubusercontent.com/93301287/228831877-4d730bd2-42e4-4c7a-be58-1002de20128f.png)
 
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/93301287/228831877-4d730bd2-42e4-4c7a-be58-1002de20128f.png"/>
+</p>
+
 ### 3.5 COSTS OF VOLUNTARY VS EMERGENCY DISPLACEMENT  <a name="displacement"></a>
 
 The program defines the following definitions:
@@ -181,6 +212,10 @@ The program defines the following definitions:
 Figure 5 depicts the cumulative program cost projection for both voluntary relocation and emergency displacement across all SSP scenarios. These results demonstrate that there are minimal cost savings between the two groups in the short-term. However, as time horizon increases, a large disparity in the costs accumulate, suggesting that a swift adoption of the buyback scheme in Storslysia will minimise long-term costs and promote the financial sustainability of the program. Additionally, the more intensive the SSP emission scenario is, the wider the disparity between the groups will be as time progresses. A region-by-region breakdown of costs is provided in Appendix L
 
 ![image](https://user-images.githubusercontent.com/93301287/228832229-81d456c6-3c88-4d9c-b7b2-87c8339d6646.png)
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/93301287/228832229-81d456c6-3c88-4d9c-b7b2-87c8339d6646.png"/>
+</p>
 
 ## SECTION 4: ASSUMPTIONS SUMMARY <a name="assumptionsum"></a>
 ***Hazard Data Classification and Processing***
@@ -191,11 +226,19 @@ The process of grouping correlated natural events was utilised to simplify hazar
 
 ![image](https://user-images.githubusercontent.com/93301287/228832493-b72cc725-74fb-47a9-b64a-f4fb3c8cd372.png)
 
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/93301287/228832493-b72cc725-74fb-47a9-b64a-f4fb3c8cd372.png"/>
+</p>
+
 ## SECTION 5: RISKS & RISK MITIGATION CONSIDERATIONS <a name="risksmitigation"></a>
 ### 5.1 RISK ASSESSMENT  <a name="riskassess"></a>
 Both quantifiable and qualitative risks that may arise in the implementation and maintenance of the insurance program are assessed below. Quantifiable risks are those that can be numerically measured and are often associated with changes in financial losses or gains and can affect the results of modelling and analysis. On the other hand, qualitative risks are more subjective and stem from non-financial factors such as regulatory compliance, reputation, and policyholder satisfaction (Golnaraghi 2021).
 
 ![image](https://user-images.githubusercontent.com/93301287/228833254-0aeccf47-aa2e-44a4-b275-abfc53cbe1ad.png)
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/93301287/228833254-0aeccf47-aa2e-44a4-b275-abfc53cbe1ad.png"/>
+</p>
 
 ### 5.2 SENSITIVITY ANALYSIS  <a name="sensitivityanalysis"></a>
 Sensitivity analysis was performed by adjusting the following key assumptions Table 4. The proposed insurance program will remain financially sustainable within the following recommended ranges. Refer to Appendix N for an example of a worst-case scenario. 
