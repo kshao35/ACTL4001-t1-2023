@@ -2,7 +2,7 @@
 
 #### March 2023
 
-$$RAF_{Year} = (\dfrac{CO2_{Year}}{CO2_{2020}})^{2)$$
+$$RAF_{Year} = (\dfrac{CO2_{Year}}{CO2_{2020}})^{2}$$
 
 
 ###### Team: The Standard Deviants (UNSW)
