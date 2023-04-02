@@ -54,6 +54,8 @@
 
 [*Section 7: Final Recommendations*](#finalrec)
 
+[*Section 8: Appendices*](#appendix)
+
 
 ## EXECUTIVE SUMMARY <a name="executivesum"></a>
 This report proposes a social insurance program designed to relieve the economic costs associated with climate-related catastrophes in Storslysia. The primary objective of the program is to mitigate the financial consequences for residents residing in high-risk areas facing displacement. The program covers costs arising from climate-related hazards such as temporary housing and household contents, but further assists Storslysia manage displacement risk through a buyback scheme aimedtowards high-risk, low value properties. By implementing the program, the program will reduce economic costs associated with climate catastrophe-related events by approximately 16.58% in the short-term and 28.75% in the long-term. Furthermore, the proposed social insurance program will continue to lower costs even if the climate situation deteriorates as represented by Shared Socioeconomic Pathways (SSP)scenarios. Hence, with 95% confidence, the program costs do not exceed 10% of Storslysia’s 
@@ -110,7 +112,7 @@ This insurance program will cover the following areas:
 - ***Proactive relocation:*** Financial assistance for individuals or families who voluntarily relocate to a safer area prior to a catastrophic event. This will involve offering to buyback houses, with limitations described below.
 - ***Involuntary displacement:*** Coverage for involuntary displacement following a hazard event will include financial assistance to cover the costs of temporary housing and property damage.
 - ***Other expenses:*** The social insurance program may also cover other expenses related to displacement, such as transportation costs, storage costs for personal belongings. 
-- ***Limitations of coverage:***  The program has a deductible of $1,000 and limit of $600,000. Additionally, temporary housing costs following a hazard event will only be covered by the program for 6 months. The buyback scheme will only be offered to houses valued below Ꝕ300K in Storslysia that are at risk of severe or catastrophic hazard events. Refer to Appendix A for further detail.
+- ***Limitations of coverage:***  The program has a deductible of $1,000 and limit of $600,000. Additionally, temporary housing costs following a hazard event will only be covered by the program for 6 months. The buyback scheme will only be offered to houses valued below Ꝕ300K in Storslysia that are at risk of severe or catastrophic hazard events. Refer to [Appendix A](#a) for further detail.
 - ***Voluntary relocation incentives:*** Through the buyback scheme, policyholders will be incentivised to relocate to lower-risk areas in order to reduce the likelihood of displacement and pay reduced premiums.
 
 ### 2.3 QUALITATIVE/QUANTITATIVE JUSTIFICATION FOR PROGRAM  <a name="justify"></a>
@@ -294,6 +296,9 @@ Finally, it is recommended that preventative measures be introduced alongside th
 
 
 
+## SECTION 8: APPENDICES <a name="appendix"></a>
+
+### APPENDIX A: LIMIT & DEDUCTIBLE <a name="a"></a>
 
 
 
