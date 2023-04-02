@@ -102,13 +102,12 @@ Known to have the best performance in capturing heavy right tails, the Fréchet 
 commonly used in studies to model extreme phenomena in fields such as meteorology, hydrology, and finance (RAL 2022). With a shape parameter (α), scale parameter (σ), and location parameter (μ), the parameter estimates are shown in Appendix D and the probability 
 density function is shown below:
 
-$\sqrt{3x-1}+(1+x)^2$
-
-```math
-\sqrt{3}
-```
+	<img src="https://render.githubusercontent.com/render/math?math={\f(x;α,σ,μ) = \frac{α}{σ} × \frac{{x-μ}{σ}}^{-1-α} × \exp{-{\frac{{x-μ}{σ}}^{-α}}}}#gh-light-mode-only">
+	
+L= -\sum_{j}[T_{j}ln(O_{j})] + \frac{\lambda W_{ij}^{2}}{2} \rightarrow \text{one-hot} \rightarrow -ln(O_{c}) + \frac{\lambda W_{ij}^{2}}{2}}#gh-light-mode-only">
+	
         
-	$ f(x;α,σ,μ) = \frac{α}{σ} × $
+	$\f(x;α,σ,μ) = \frac{α}{σ} × \frac{x-μ}{σ}^$
 
 #### 3.1.2 CALCULATING RETURN PERIOD
 With a distribution fitted to the data, return periods of 2, 5, 10 and 100 years were set as benchmarks for quantifying the damages of Minor, Moderate, Severe and Catastrophic events. The return period is defined as the time between disasters of a particular scale occurring, meaning that a 1-in-100-year hazard event was set to be catastrophic in terms of severity. With the Fréchet distribution, the damage level that corresponded to a given quantile was calculated, where quantiles were set as
@@ -165,6 +164,10 @@ The average annual premium per policyholder was determined by dividing the econo
 The proposed insurance program evaluated economic capital for all four SSP models, covering years 2020 to 2070. Under the 95% confidence interval applied to projected economic costs, the following results in Figure 3 are also within a 95% confidence range. As observed, minor fluctuations occur within each model due to the unpredictability of weather events. Further analysis on trends is included in Appendix K.
 
 ![image](https://user-images.githubusercontent.com/93301287/228831761-d0e16645-086d-4c98-b552-d46ee6927ee8.png)
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/93301287/228831761-d0e16645-086d-4c98-b552-d46ee6927ee8.png"/>
+</p>
 
 The key takeaway is that economic capital remains positive in both short and long-term scenarios, indicating that the program is sustainable and can generate sufficient reserves to cushion unforeseen events in the future. Under the baseline model of SSP5, in the short-term, the program can recover accumulated reserves within one year up to an approximately $50 million event, which occurs with probability 4.31%. In the long-term, recoveries of up to approximately $600 million event can be made within one year, which occurs with 1.69% probability. See Figure 4 to the right for both these scenarios. 
 
