@@ -2,10 +2,6 @@
 
 #### March 2023
 
-
-  $\sum_{region 3, 4, 5, 6}$ h𝑜𝑢𝑠𝑒h𝑜𝑙𝑑𝑠 𝑖𝑛𝑡𝑜 𝑟𝑒𝑔𝑖𝑜𝑛 𝑡 𝑑𝑢𝑟𝑖𝑛𝑔 𝑦𝑒𝑎𝑟 𝑖 × 𝑝𝑟𝑜𝑝𝑒𝑟𝑡𝑦 𝑐𝑜𝑠𝑡 𝑖𝑛 𝑟𝑒𝑔𝑖𝑜𝑛 𝑡 × 10%
-  
-
 ###### Team: The Standard Deviants (UNSW)
 ###### Members: Jennifer Lin, Rosy Liu, Kevin Shao, Jessica Zhao, Sharon Zhou 
 
@@ -145,24 +141,20 @@ Each distribution was accordingly fitted to the property damage data and compare
 Known to have the best performance in capturing heavy right tails, the Fréchet distribution is 
 commonly used in studies to model extreme phenomena in fields such as meteorology, hydrology, and finance (RAL 2022). With a shape parameter (α), scale parameter (σ), and location parameter (μ), the parameter estimates are shown in Appendix D and the probability 
 density function is shown below:
-
-	<img src="https://render.githubusercontent.com/render/math?math={\f(x;α,σ,μ) = \frac{α}{σ} × \frac{{x-μ}{σ}}^{-1-α} × \exp{-{\frac{{x-μ}{σ}}^{-α}}}}#gh-light-mode-only">
-	
-L= -\sum_{j}[T_{j}ln(O_{j})] + \frac{\lambda W_{ij}^{2}}{2} \rightarrow \text{one-hot} \rightarrow -ln(O_{c}) + \frac{\lambda W_{ij}^{2}}{2}}#gh-light-mode-only">
-	
         
-	$\f(x;α,σ,μ) = \frac{α}{σ} × \frac{x-μ}{σ}^$
+	$f{x;α,σ,μ} = \frac{α}{σ} × \frac{{x-μ}{σ}}^{-1-α} × \exp{-{\frac{{x-μ}{σ}}^{-α}}}$
 
 #### 3.1.2 CALCULATING RETURN PERIOD
 With a distribution fitted to the data, return periods of 2, 5, 10 and 100 years were set as benchmarks for quantifying the damages of Minor, Moderate, Severe and Catastrophic events. The return period is defined as the time between disasters of a particular scale occurring, meaning that a 1-in-100-year hazard event was set to be catastrophic in terms of severity. With the Fréchet distribution, the damage level that corresponded to a given quantile was calculated, where quantiles were set as
 		
-		$$
+		$ 1 - \frac{1}{return period}$
+		
 For example, to obtain a damage estimate of a minor event, the 50% quantile of our fitted distribution was taken.
 
 #### 3.1.3 OBTAINING CONFIDENCE INTERVALS
 To determine confidence intervals (CIs) for the predictions, percentile bootstrapping was chosen over other bootstrapping methods to generate more stable results, given there are many extreme data points. The dataset was resampled Β = 1000 times with replacement, and from each resampled dataset, a hazard rate and severity value were calculated for each of the 6 regions. The 95% confidence interval was then constructed as follows by taking the interval between the 25th quantile value to the 975th quantile value from the 1000 estimates in the bootstrapped sample:
 
-		$$
+		$[\theta_lower , \theta_upper] = [\theta_\frac{α}{2}$
 
 #### 3.1.4 PROJECTING DAMAGE ESTIMATES
 After obtaining the return period and severity values for each region, the damage estimates were projected into the future by re-evaluating the likelihood of a disaster of each magnitude occurring. For example, if there was a certain disaster with a return period of 2 years, it would be expected to occur 0.5 times on average per year. To achieve this, LOESS models were fit to the provided future atmospheric CO2 emissions to obtain annual estimates under each SSP model up until 2150 (see Appendix E). The Risk Adjustment Factor (RAF) was calculated as 
