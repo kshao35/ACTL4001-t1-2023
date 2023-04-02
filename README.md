@@ -2,7 +2,7 @@
 
 #### March 2023
 
-$$[\hat \theta_{lower} ,\hat \theta_{upper}] = [{\theta_\frac{α}{2}} \ast$$
+$$[\hat \theta_{lower} ,\hat \theta_{upper}] = [{\theta}\ast_\frac{α}{2}$$
 
 
 ###### Team: The Standard Deviants (UNSW)
