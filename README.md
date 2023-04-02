@@ -2,6 +2,10 @@
 
 #### March 2023
 
+
+  $\sum_{region 3, 4, 5, 6}$ h𝑜𝑢𝑠𝑒h𝑜𝑙𝑑𝑠 𝑖𝑛𝑡𝑜 𝑟𝑒𝑔𝑖𝑜𝑛 𝑡 𝑑𝑢𝑟𝑖𝑛𝑔 𝑦𝑒𝑎𝑟 𝑖 × 𝑝𝑟𝑜𝑝𝑒𝑟𝑡𝑦 𝑐𝑜𝑠𝑡 𝑖𝑛 𝑟𝑒𝑔𝑖𝑜𝑛 𝑡 × 10%
+  
+
 ###### Team: The Standard Deviants (UNSW)
 ###### Members: Jennifer Lin, Rosy Liu, Kevin Shao, Jessica Zhao, Sharon Zhou 
 
@@ -129,16 +133,14 @@ which are modelled as below.
 Property damage was modelled by considering the occurrence of climate-related catastrophes. As hazard events like floods, bushfires and hurricanes are low frequency but high impact, a statistical approach known as Extreme Value Analysis (EVA) was conducted to capture information at the tails, where the rarest and most extreme events occur (see Appendix B). There are three extreme value distributions (EVDs) commonly used, namely the Gumbel, Weibull and Fréchet distributions. 
 
 Each distribution was accordingly fitted to the property damage data and compared using statistical tests including AIC, BIC, and Log-Likelihood to determine the best model. The results of the analysis indicate that the Fréchet distribution provides the best fit for the dataset, as evidenced by its superior performance across all statistical tests and goodness-of-fit plots (see Appendix C).
-
-![image](https://user-images.githubusercontent.com/93301287/228829821-107d9289-c700-455a-8c48-5579761a80f3.png)
 	
 *Table 1: Results of statistical tests for extreme value distributions*
 
 | Distribution| AIC         | BIC           | Log-Likelihood | Final Selection |
 |:-----------:|:-----------:|:-------------:|:-------------: |:-------------:  |
-| Gumbel      | 7743.014    | 7749.4        | -3869.507      | ✘              |
-| Weibull     | 4835.001    | 4841.387      | -2415.50       |✘               |
-| Fréchet     | 4821.952    | 4831.53       | -2407.976      |✔               |
+| Gumbel      | 7743.014    | 7749.4        | -3869.507      |:x:              |
+| Weibull     | 4835.001    | 4841.387      | -2415.50       |:x:             |
+| Fréchet     | 4821.952    | 4831.53       | -2407.976      |:heavy_check_mark:|
 
 Known to have the best performance in capturing heavy right tails, the Fréchet distribution is 
 commonly used in studies to model extreme phenomena in fields such as meteorology, hydrology, and finance (RAL 2022). With a shape parameter (α), scale parameter (σ), and location parameter (μ), the parameter estimates are shown in Appendix D and the probability 
