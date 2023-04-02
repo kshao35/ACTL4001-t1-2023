@@ -2,11 +2,8 @@
 
 #### March 2023
 
-$$RAF_{Year} = (\dfrac{CO2_{Year}}{CO2_{2020}})^{2}$$
-
-
-###### Team: The Standard Deviants (UNSW)
-###### Members: Jennifer Lin, Rosy Liu, Kevin Shao, Jessica Zhao, Sharon Zhou 
+##### Team: The Standard Deviants (UNSW)
+##### Members: Jennifer Lin, Rosy Liu, Kevin Shao, Jessica Zhao, Sharon Zhou 
 
 ## Table of contents
 [*Executive Summary*](#executivesum)
