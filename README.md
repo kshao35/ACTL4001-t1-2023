@@ -189,7 +189,9 @@ Contents coverage provides financial protection for the personal belongings and 
 #### 3.2.2 ECONOMIC COST PROJECTIONS
 Figure 1 and Figure 2 compares the annual cost projection of WI and WOI models. The insurance program’s buyback scheme gradually relocates high-risk households to lower-risk areas for the first three household groups, as described in the previous section. As such, WI projection reduces Storslysia’s economic losses by minimising the costs outlined in Section 3.2.1 for households who participate in the relocation scheme. The annual percentage of participants is assumed to follow a sigmoid distribution, where the terminal percentage of relocation is 60% (see [Appendix H](#h)).
 
-![image](https://user-images.githubusercontent.com/93301287/228831147-a5774dbc-1a05-4f6b-bdf8-8bfb45315a67.png)
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/93301287/228831147-a5774dbc-1a05-4f6b-bdf8-8bfb45315a67.png"/>
+</p>
 
 As mentioned in Section 2.3, these models demonstrate the program will reduce economic costs by approximately 16.58% in the short-term and 28.75% in the long-term. Under SSP1 and SSP2, the WI model is clearly following a different trajectory relative to the WOI model, indicative of the success of the insurance program in reducing costs under these climate scenarios. For SSP3 and SSP5, whilst the shape of the WI and WOI curves are similar overall, in the short-to-medium-term, the WI curve is more convex, suggesting successful reduction of costs in this timeframe.
 
@@ -201,15 +203,11 @@ The average annual premium per policyholder was determined by dividing the econo
 ### 3.4 ECONOMIC CAPITAL  <a name="economiccapital"></a>
 The proposed insurance program evaluated economic capital for all four SSP models, covering years 2020 to 2070. Under the 95% confidence interval applied to projected economic costs, the following results in Figure 3 are also within a 95% confidence range. As observed, minor fluctuations occur within each model due to the unpredictability of weather events. Further analysis on trends is included in [Appendix K](#k).
 
-![image](https://user-images.githubusercontent.com/93301287/228831761-d0e16645-086d-4c98-b552-d46ee6927ee8.png)
-
 <p align="center">
   <img src="https://user-images.githubusercontent.com/93301287/228831761-d0e16645-086d-4c98-b552-d46ee6927ee8.png"/>
 </p>
 
 The key takeaway is that economic capital remains positive in both short and long-term scenarios, indicating that the program is sustainable and can generate sufficient reserves to cushion unforeseen events in the future. Under the baseline model of SSP5, in the short-term, the program can recover accumulated reserves within one year up to an approximately $50 million event, which occurs with probability 4.31%. In the long-term, recoveries of up to approximately $600 million event can be made within one year, which occurs with 1.69% probability. See Figure 4 to the right for both these scenarios. 
-
-![image](https://user-images.githubusercontent.com/93301287/228831877-4d730bd2-42e4-4c7a-be58-1002de20128f.png)
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/93301287/228831877-4d730bd2-42e4-4c7a-be58-1002de20128f.png"/>
@@ -225,8 +223,6 @@ The program defines the following definitions:
 
 Figure 5 depicts the cumulative program cost projection for both voluntary relocation and emergency displacement across all SSP scenarios. These results demonstrate that there are minimal cost savings between the two groups in the short-term. However, as time horizon increases, a large disparity in the costs accumulate, suggesting that a swift adoption of the buyback scheme in Storslysia will minimise long-term costs and promote the financial sustainability of the program. Additionally, the more intensive the SSP emission scenario is, the wider the disparity between the groups will be as time progresses. A region-by-region breakdown of costs is provided in [Appendix L](#l)
 
-![image](https://user-images.githubusercontent.com/93301287/228832229-81d456c6-3c88-4d9c-b7b2-87c8339d6646.png)
-
 <p align="center">
   <img src="https://user-images.githubusercontent.com/93301287/228832229-81d456c6-3c88-4d9c-b7b2-87c8339d6646.png"/>
 </p>
@@ -238,8 +234,6 @@ The process of grouping correlated natural events was utilised to simplify hazar
 
 ***Aforementioned Assumptions***
 
-![image](https://user-images.githubusercontent.com/93301287/228832493-b72cc725-74fb-47a9-b64a-f4fb3c8cd372.png)
-
 <p align="center">
   <img src="https://user-images.githubusercontent.com/93301287/228832493-b72cc725-74fb-47a9-b64a-f4fb3c8cd372.png"/>
 </p>
@@ -248,8 +242,6 @@ The process of grouping correlated natural events was utilised to simplify hazar
 ### 5.1 RISK ASSESSMENT  <a name="riskassess"></a>
 Both quantifiable and qualitative risks that may arise in the implementation and maintenance of the insurance program are assessed below. Quantifiable risks are those that can be numerically measured and are often associated with changes in financial losses or gains and can affect the results of modelling and analysis. On the other hand, qualitative risks are more subjective and stem from non-financial factors such as regulatory compliance, reputation, and policyholder satisfaction (Golnaraghi 2021).
 
-![image](https://user-images.githubusercontent.com/93301287/228833254-0aeccf47-aa2e-44a4-b275-abfc53cbe1ad.png)
-
 <p align="center">
   <img src="https://user-images.githubusercontent.com/93301287/228833254-0aeccf47-aa2e-44a4-b275-abfc53cbe1ad.png"/>
 </p>
@@ -257,12 +249,16 @@ Both quantifiable and qualitative risks that may arise in the implementation and
 ### 5.2 SENSITIVITY ANALYSIS  <a name="sensitivityanalysis"></a>
 Sensitivity analysis was performed by adjusting the following key assumptions Table 4. The proposed insurance program will remain financially sustainable within the following recommended ranges. Refer to [Appendix N](#n) for an example of a worst-case scenario. 
 
-![image](https://user-images.githubusercontent.com/93301287/228833403-1eeeee42-a945-4ece-9aed-e4215bfa749f.png)
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/93301287/228833403-1eeeee42-a945-4ece-9aed-e4215bfa749f.png"/>
+</p>
 
 ### 5.3 FINANCIAL VIABILITY OF PROGRAM   <a name="viability"></a>
 To minimise costs to 10% of Storslysia’s annual GDP, projections of future GDP were first made. Logistic regression models were fit to the world GDP projections, and a constant percentage was taken as Storslysia’s GDP share (see [Appendix O](#o)). Under 95% confidence intervals, the program costs lie well within 10% of Storslysia’s annual GDP under all four SSP scenarios until 2070 (see [Appendix P](#p)). The below graphs supplement this by depicting the economic costs from 2020 to 2070 associated WI and WOI with a 95% CI (see Figures 6 & 7). 
 
-![image](https://user-images.githubusercontent.com/93301287/228833551-4d72d7ff-8707-4ed6-9bf5-887305aecf57.png)
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/93301287/228833551-4d72d7ff-8707-4ed6-9bf5-887305aecf57.png"/>
+</p>
 
 ## SECTION 6: DATA & DATA LIMITATIONS  <a name="data"></a>
 ### 6.1 DATA SOURCES   <a name="source"></a>
