@@ -279,9 +279,13 @@ Limited data points and frequency of data collection for the economic and demogr
 ***Insufficiency in Data Breadth***
 
 The lack of certain data types limited the ability the program’s modelling to effectively assess climate risk. An absence of data was found in the following areas:
+
 •	*Demographic data* – availability of information on annual births, deaths and migration allow for a more accurate population projection, while variables such as labour productivity could help with the GDP projection. 
+
 •	*Historical hazard events* – collection of additional variables such as the size of the affected area or even a survey on the number of households affected would reduce the need for model assumptions.
+
 •	*Geographical data* – climate risk is affected by a large range of geographical factors including altitude, latitude and longitude, proximity to bodies of water, topography, and vegetation cover. Information on these factors at the region level would have aided with assessing the physical climate risk of areas.
+
 •	*Weather data* – a multitude of weather variables interact with the frequency and severity of climate events. Data such as the temperature, precipitation, humidity, and wind in each region could increase predictive accuracy of our models.
 
 
@@ -329,14 +333,15 @@ Further analysis of each model's projected economic capital reveals that the fou
 
 #### APPENDIX L: VOLUNTARY VS INVOLUNTARY COSTS BY REGION <a name="l"></a>
 #### APPENDIX M: LIMIT & DEDUCTIBLE <a name="m"></a>
-•	Hurricane and tropical storms always occur simultaneously and hence were classified ‘hurricane’
+•Hurricane and tropical storms always occur simultaneously and hence were classified ‘hurricane’
 
-•	Severe storms occurred simultaneously with thunderstorm, and hence were classified as ‘thunderstorm’
+•Severe storms occurred simultaneously with thunderstorm, and hence were classified as ‘thunderstorm’
 
-•	Property damage designation was completed with the following method:
+•Property damage designation was completed with the following method:
 
-	• When multiple chronic events occurred simultaneously, property damage was evenly split
-	• If both chronic and acute events occurred together, the acute event was assigned 100% of property damage
+•	When multiple chronic events occurred simultaneously, property damage was evenly split
+
+•	If both chronic and acute events occurred together, the acute event was assigned 100% of property damage
 
 #### APPENDIX N: LIMIT & DEDUCTIBLE <a name="n"></a>
 A worst-case scenario was modelled with a 10% increase past the limits of materials & labour costs, and the cost of replacing household goods (to 55% and 82.5% respectively). The resulting accumulated reserves are plotted above.
