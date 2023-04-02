@@ -330,10 +330,13 @@ Further analysis of each model's projected economic capital reveals that the fou
 #### APPENDIX L: VOLUNTARY VS INVOLUNTARY COSTS BY REGION <a name="l"></a>
 #### APPENDIX M: LIMIT & DEDUCTIBLE <a name="m"></a>
 •	Hurricane and tropical storms always occur simultaneously and hence were classified ‘hurricane’
+
 •	Severe storms occurred simultaneously with thunderstorm, and hence were classified as ‘thunderstorm’
+
 •	Property damage designation was completed with the following method:
-o	When multiple chronic events occurred simultaneously, property damage was evenly split
-o	If both chronic and acute events occurred together, the acute event was assigned 100% of property damage
+
+	• When multiple chronic events occurred simultaneously, property damage was evenly split
+	• If both chronic and acute events occurred together, the acute event was assigned 100% of property damage
 
 #### APPENDIX N: LIMIT & DEDUCTIBLE <a name="n"></a>
 A worst-case scenario was modelled with a 10% increase past the limits of materials & labour costs, and the cost of replacing household goods (to 55% and 82.5% respectively). The resulting accumulated reserves are plotted above.
