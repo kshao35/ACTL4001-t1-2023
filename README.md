@@ -4,7 +4,6 @@
 
 $$f(x;α,σ,μ) = \dfrac{α}{σ} \times (\dfrac{x-μ}{σ})^{-1-α} \times \mathrm{e}^{-(\dfrac{x-μ}{σ})^{-α}}$$
 
-× \frac{{x-μ}{σ}}^{-1-α} × \exp{-{\frac{{x-μ}{σ}}^{-α}}}
 
 ###### Team: The Standard Deviants (UNSW)
 ###### Members: Jennifer Lin, Rosy Liu, Kevin Shao, Jessica Zhao, Sharon Zhou 
@@ -146,12 +145,12 @@ Known to have the best performance in capturing heavy right tails, the Fréchet 
 commonly used in studies to model extreme phenomena in fields such as meteorology, hydrology, and finance (RAL 2022). With a shape parameter (α), scale parameter (σ), and location parameter (μ), the parameter estimates are shown in Appendix D and the probability 
 density function is shown below:
         
-	$f{x;α,σ,μ} = \frac{α}{σ} × \frac{{x-μ}{σ}}^{-1-α} × \exp{-{\frac{{x-μ}{σ}}^{-α}}}$
+	$$f(x;α,σ,μ) = \dfrac{α}{σ} \times (\dfrac{x-μ}{σ})^{-1-α} \times \mathrm{e}^{-(\dfrac{x-μ}{σ})^{-α}}$$
 
 #### 3.1.2 CALCULATING RETURN PERIOD
-With a distribution fitted to the data, return periods of 2, 5, 10 and 100 years were set as benchmarks for quantifying the damages of Minor, Moderate, Severe and Catastrophic events. The return period is defined as the time between disasters of a particular scale occurring, meaning that a 1-in-100-year hazard event was set to be catastrophic in terms of severity. With the Fréchet distribution, the damage level that corresponded to a given quantile was calculated, where quantiles were set as
+With a distribution fitted to the data, return periods of 2, 5, 10 and 100 years were set as benchmarks for quantifying the damages of Minor, Moderate, Severe and Catastrophic events. The return period is defined as the time between disasters of a particular scale occurring, meaning that a 1-in-100-year hazard event was set to be catastrophic in terms of severity. With the Fréchet distribution, the damage level that corresponded to a given quantile was calculated, where quantiles were set as:
 		
-		$ 1 - \frac{1}{return period}$
+		$$ 1 - \dfrac{1}{return period}$$
 		
 For example, to obtain a damage estimate of a minor event, the 50% quantile of our fitted distribution was taken.
 
