@@ -2,7 +2,7 @@
 
 #### March 2023
 
-$$ 1 - \dfrac{1}{return \ period}$$
+$ 1 - \dfrac{1}{return \ period}$
 
 ##### Team: The Standard Deviants (UNSW)
 ##### Members: Jennifer Lin, Rosy Liu, Kevin Shao, Jessica Zhao, Sharon Zhou 
